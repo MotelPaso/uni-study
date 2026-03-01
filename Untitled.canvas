@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7764399c8545a45f","x":-1320,"y":-1420,"width":1240,"height":980,"color":"#503f3f","type":"group","label":"Fundamentos de la Computacion"},
+		{"id":"e09eb53e92ec1be6","x":-1260,"y":-1365,"width":250,"height":50,"type":"text","text":"Teoria de conjuntos"}
+	],
+	"edges":[]
+}
