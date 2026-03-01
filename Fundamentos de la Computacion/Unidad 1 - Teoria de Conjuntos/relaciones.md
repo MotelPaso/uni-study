@@ -45,8 +45,8 @@ Una relación será antisimétrica si existe un par de elementos $(a,b)$ donde $
 
 $$
 \begin{aligned}
-A = \{1,2,3\}\hspace{29px} R_1 = \{ (1,2),(3,2) \}\  \text{Antisimétrica}\\
-\hspace{82px} R_2 = \{(1,2),(2,1)\}\ \text{No Antisimetrica}
+A = \{1,2,3\}\hspace{29px} &R_1 = \{ (1,2),(3,2) \}\  \text{Antisimétrica}\\
+&R_2 = \{(1,2),(2,1)\}\ \text{No Antisimetrica}
 \end{aligned}
 $$
 
@@ -62,7 +62,7 @@ $$
 A = \{1,2,3\}\hspace{1cm} R = \{ (1,2),(2,3),(1,3) \}
 $$
 
-> El orden importa aqui, un elemento $(3,1)$ no nos sirve para probar que existe.   
+> El orden **si** importa aquí, el elemento $(3,1)$ no nos va a servir.    
 
 
 

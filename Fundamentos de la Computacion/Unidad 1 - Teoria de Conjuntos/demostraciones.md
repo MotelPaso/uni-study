@@ -36,17 +36,18 @@ $$
 $$
 
 Desde aquí, empezamos a trabajar empleando las definiciones de cada operación posible en los conjuntos.   
-> Cada definición que usemos nos sirve para "validar" nuestro trabajo.   
+> Cada definición que usemos nos sirve para "validar" nuestro trabajo. 
+
 $$
 \begin{aligned}
-\forall x : x \in \overline{A\cup B} \qquad \text{/ def. complemento}\\
-\forall x : x \notin {A\cup B} \qquad \text{/ def. unión}\\
-\forall x : x \notin A \land x \notin B  \ \text{/ def. complemento}\\
-\forall x : x \in \overline{A} \land x \in \overline{B} \ \text{/ def. intersección}\\
-\forall x : x \in \overline{A} \cap \overline{B}
+&\forall x : x \in \overline{A\cup B}  &\text{/ def. complemento}\\
+&\forall x : x \notin {A\cup B} &\text{/ def. unión}\\
+&\forall x : x \notin A \land x \notin B &\text{/ def. complemento}\\
+&\forall x : x \in \overline{A} \land x \in \overline{B} &\text{/ def. intersección}\\
+&\forall x : x \in \overline{A} \cap \overline{B}
 \end{aligned}
 $$
-Si la relación entre los conjuntos es un $=$, se tiene que realizar el trabajo dos veces, una empezando por la izquierda, y otra empezando por la derecha, el procedimiento es igual.   
+> Si la relación entre los conjuntos es un $=$, se tiene que realizar el trabajo dos veces, una empezando por la izquierda, y otra empezando por la derecha, el procedimiento es igual.   
 ## Tipos de demostraciones:   
 ### Demostración Directa:   
 

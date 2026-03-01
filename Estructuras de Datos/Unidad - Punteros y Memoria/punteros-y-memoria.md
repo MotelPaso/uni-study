@@ -1,4 +1,4 @@
-﻿---
+---
 Object type:
     - Unidad
 Backlinks:
@@ -15,7 +15,7 @@ Un **puntero **es un nuevo datatype exclusivo\* a C y C++ que guardan la direcci
 Siempre empiezan con `0x` y contienen `0-9` y `a-f`   
 Sirven para trabajar con datos que puede que no estén al alcance de la función actual o para crear estructuras de datos complejas.   
 Se crean de la siguiente manera:   
-```
+```cpp
 int main()
 {
 	int num = 5;
@@ -25,20 +25,20 @@ int main()
 ```
 El símbolo `\*` tiene dos significados dependiendo de en que lado esté de la igualdad.   
 1. Indica que la variable a crear va a ser un puntero.   
-    ```
+    ```cpp
     int* puntero = &num; // 0x.......
     ```
-2. Va a la dirección del puntero y toma el valor que este ahi.   
-    ```
+2. Va a la dirección del puntero y toma el valor que este ahí.   
+    ```cpp
     int copia_de_num = *puntero; // 5
     ```
-   
-El símbolo `&` nos devuelve la dirección de una variable.   
-```
-std::cout << &num << std::endl; // 0x.......
-```
+3. El símbolo `&` nos devuelve la dirección de una variable.   
+	```cpp
+	std::cout << &num << std::endl; // 0x.......
+	```
 ### Ejemplo grande:   
-```
+```cpp
+#include <iostream>
 int main() {
 	int numero = 20;
 	// std::cout << numero << std::endl;
@@ -53,6 +53,7 @@ int main() {
 	 * Las direcciones estan en formato hexadecimal y no son siempre iguales, van variando.
 	 */
 	return 0;
+}
 ```
    
 

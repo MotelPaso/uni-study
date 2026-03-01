@@ -1,4 +1,4 @@
-﻿---
+---
 Object type:
     - Curso
 Universidad:
@@ -19,34 +19,17 @@ Links:
     - pau
     - 5to-semestre
 ---
-# Estructuras de Datos   
-## Datos del Profesor:   
+# Estructuras de Datos
+
+### Datos del Profesor:
 Nombre: Juan Nilo Iturra   
-Correo: juan.nilo@ce.ucn.cl   
- --- 
-### **Horario:**   
+Correo: juan.nilo@ce.ucn.cl 
+
+### **Horario:**  
 Lunes 10:00 - 13:00   
 Martes 12:00 - 16:00   
- --- 
-# Unidades:   
+### Unidades:
 [[ punteros-y-memoria | Punteros y Memoria ]]    
 [[ listas-enlazadas | Listas Enlazadas ]]    
-   
-# Pruebas:   
-[[ pp1_k | PP1 ]]    
-   
-#    
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Pruebas:
+[[ pp1_k | PP1 ]]

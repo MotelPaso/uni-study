@@ -17,11 +17,10 @@ Cardinalidad = len(set), solo cuentan los objetos "grandes"
 Existe un conjunto vacio, con len 0.   
 Un subconjunto tiene que estar en el conjunto grande, con $\subseteq$.
 Conjunto vacio siempre es subconjunto.   
-Conjunto potencia son todos los subconjuntos posibles.   
-- $\left\|p(A)\right\| = 2^n \\ \{\emptyset, \{A\}\}$ siempre se cumple.   
+Conjunto potencia son todos los subconjuntos posibles.      
    
 # Conjuntos / Sets   
-Un conjunto es una colección de objetos llamados **elementos. 
+Un conjunto es una colección de objetos llamados **elementos**. 
 ##### Propiedades:
 - Pueden ser finitos o infinitos.   
 $$

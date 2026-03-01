@@ -1,0 +1,66 @@
+{
+	"nodes":[
+		{"id":"2a9481ea20c77308","type":"group","ratio":1.7777777777777777,"x":-1260,"y":-1620,"width":1200,"height":675,"label":"Start Slide"},
+		{"id":"52da795e033042e2","type":"group","ratio":1.7777777777777777,"x":-1000,"y":-440,"width":1200,"height":675,"label":"second slide"},
+		{
+			"id":"56bc5c8e58a6bf21",
+			"type":"file",
+			"file":"Fundamentos de la Computacion/Unidad 1 - Teoria de Conjuntos/teoria-de-conjuntos.md",
+			"subpath":"#^c0c34a",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1220,
+			"y":-1600,
+			"width":320,
+			"height":60
+		},
+		{
+			"id":"2e25bbc7efa9aaa3",
+			"type":"file",
+			"file":"Fundamentos de la Computacion/Unidad 1 - Teoria de Conjuntos/definicion-de-conjuntos.md",
+			"subpath":"#Conjuntos / Sets",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1220,
+			"y":-1480,
+			"width":489,
+			"height":483
+		},
+		{
+			"id":"8e1206dcb8293639",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-920,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"3c403ed376e2e8af",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-220,
+			"y":-1680,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"151496d41e076b13",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-560,
+			"y":-1680,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[
+		{"id":"935ab5e8bc419b16","fromNode":"56bc5c8e58a6bf21","fromSide":"bottom","toNode":"2e25bbc7efa9aaa3","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"2a9481ea20c77308"
+	}
+}

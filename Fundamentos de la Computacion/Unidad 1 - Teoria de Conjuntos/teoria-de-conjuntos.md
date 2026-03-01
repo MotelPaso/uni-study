@@ -18,6 +18,9 @@ Links:
     - motelpaso
 ---
 # Teoria de Conjuntos   
+
+^c0c34a
+
 [[ definicion-de-conjuntos | Definición de Conjuntos ]]    
 [[ producto-cartesiano-y-par-ordenado | Producto Cartesiano y Par Ordenado ]]    
 [[ operaciones-de-un-conjunto | Operaciones de un Conjunto ]]    
