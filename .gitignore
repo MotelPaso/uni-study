@@ -4,4 +4,6 @@
 *.mdc
 *.mdb
 
-.obsidian/plugins
+.obsidian/*
+
+!.obsidian/themes/
