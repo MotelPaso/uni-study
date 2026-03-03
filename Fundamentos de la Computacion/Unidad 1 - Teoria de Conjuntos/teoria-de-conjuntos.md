@@ -17,7 +17,7 @@ Links:
     - Fundamentos de la Computacion
     - motelpaso
 ---
-# Teoria de Conjuntos   
+# <div align="center">Teoria de Conjuntos</div>   
 
 ^c0c34a
 

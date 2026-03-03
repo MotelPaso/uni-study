@@ -10,9 +10,6 @@ Links:
     - teoria-de-conjuntos
 ---
 # Operaciones de un Conjunto   
-Complemento, Interseccion, Union, Diferencia   
-Todo conjunto $A$ existe dentro de un universo $\mathbb{U}$.   
-Estas operaciones crean un nuevo conjunto basado en el conjunto original.   
 ## Complemento: $\overline A = \{ a \in\mathbb{U}\mid a \notin A\}$   
 El complemento es todo elemento que exista en el universo $\mathbb{U}$, pero que no esté en $A.$
 Se escribe como $\overline A,\quad A^c ,\quad A'$.   
@@ -28,11 +25,9 @@ Se escribe como $A-B,\quad A \setminus B, \quad A \cap B^c$.
 ## Diferencia Simetrica: $A\,\Delta\, B = \{x \mid x \in A \oplus x \in B\}$   
 La diferencia simétrica se define como todos los elementos que no se repiten entre los conjuntos, se puede ver como la union de los conjuntos, pero quitando su intersección.   
 Se escribe como $A\, \Delta \,B, \quad A \oplus B, \quad A \ominus B$   
-
 $$
 A\,\Delta\, B = (A-B)\cup(B-A) 
 $$
-
 # Ejemplo:   
 $$
 \begin{aligned}
@@ -41,7 +36,7 @@ $$
 &A \cap B = \emptyset\\
 &C \cap B = \{4, 16\}\\
 &C - B = \{ 1, 9\}\\
-&C \oplus B = \{ 1,9,8,12\}\\
+&C \,\Delta\, B = \{ 1,9,8,12\}\\
 &\emptyset \cap B = \emptyset
 \end{aligned}
 $$

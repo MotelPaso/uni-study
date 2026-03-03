@@ -1,15 +1,36 @@
 {
 	"nodes":[
-		{"id":"52da795e033042e2","type":"group","ratio":1.7777777777777777,"x":-1000,"y":-440,"width":1200,"height":675,"label":"second slide"},
+		{"id":"f0e4ed6e5b269790","type":"group","ratio":1.7777777777777777,"x":-1980,"y":-2120,"width":1840,"height":1035,"label":"asdasd"},
+		{"id":"52da795e033042e2","type":"group","ratio":1.7777777777777777,"x":-1420,"y":-720,"width":1236,"height":695,"label":"asdasdas"},
+		{
+			"id":"931d4954dd1c3e0b",
+			"type":"text",
+			"text":"Estructuras de datos",
+			"styleAttributes":{},
+			"x":-1371,
+			"y":-680,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"7caf56cb214f71ee",
+			"type":"file",
+			"file":"Fundamentos de la Computacion/Unidad 1 - Teoria de Conjuntos/operaciones-de-un-conjunto.md",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1340,
+			"y":-2080,
+			"width":620,
+			"height":400
+		},
 		{
 			"id":"56bc5c8e58a6bf21",
 			"type":"file",
 			"file":"Fundamentos de la Computacion/Unidad 1 - Teoria de Conjuntos/teoria-de-conjuntos.md",
 			"subpath":"#^c0c34a",
 			"styleAttributes":{"border":"invisible"},
-			"x":-1255,
-			"y":-1780,
-			"width":320,
+			"x":-1920,
+			"y":-2080,
+			"width":498,
 			"height":60
 		},
 		{
@@ -18,18 +39,37 @@
 			"file":"Fundamentos de la Computacion/Unidad 1 - Teoria de Conjuntos/definicion-de-conjuntos.md",
 			"subpath":"#Conjuntos / Sets",
 			"styleAttributes":{"border":"invisible"},
-			"x":-1300,
-			"y":-1580,
-			"width":489,
-			"height":483
+			"x":-1920,
+			"y":-1927,
+			"width":498,
+			"height":495
 		}
 	],
 	"edges":[
-		{"id":"935ab5e8bc419b16","fromNode":"56bc5c8e58a6bf21","fromSide":"bottom","toNode":"2e25bbc7efa9aaa3","toSide":"top"}
+		{"id":"935ab5e8bc419b16","toFloating":false,"fromFloating":false,"fromNode":"56bc5c8e58a6bf21","fromSide":"bottom","toNode":"2e25bbc7efa9aaa3","toSide":"top","color":"5"},
+		{
+			"id":"0afbc18d730304eb",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f0e4ed6e5b269790",
+			"fromSide":"bottom",
+			"toNode":"52da795e033042e2",
+			"toSide":"top"
+		},
+		{
+			"id":"a0199eeb6d927c0a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"2e25bbc7efa9aaa3",
+			"fromSide":"right",
+			"toNode":"7caf56cb214f71ee",
+			"toSide":"left",
+			"color":"5"
+		}
 	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{},
-		"startNode":"2a9481ea20c77308"
+		"startNode":"f0e4ed6e5b269790"
 	}
 }

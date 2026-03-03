@@ -20,6 +20,7 @@ Conjunto vacio siempre es subconjunto.
 Conjunto potencia son todos los subconjuntos posibles.      
    
 # Conjuntos / Sets   
+
 Un conjunto es una colección de objetos llamados **elementos**. 
 ##### Propiedades:
 - Pueden ser finitos o infinitos.   
