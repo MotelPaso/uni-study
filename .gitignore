@@ -1,6 +1,7 @@
 *.json
 *.js
-*.css
 
 *.mdc
 *.mdb
+
+.obsidian/plugins
