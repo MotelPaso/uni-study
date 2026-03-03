@@ -1,4 +1,4 @@
-﻿---
+---
 Object type:
     - Curso
 Universidad:
@@ -22,22 +22,19 @@ Links:
     - 5to-semestre
 ---
 # Fundamentos de la Computación   
-## Datos del Profesor:   
-Nombre: Jose Luis Veas   
-Correo: jose.veas@ce.ucn.cl   
- --- 
-### **Horario:**   
+#### Datos del Profesor:   
+Nombre: Jose Luis Veas
+Correo: jose.veas@ce.ucn.cl
+
+#### Horario:   
 Lunes 10:00 - 13:00   
-Martes 12:00 - 16:00   
- --- 
-# Unidades:   
+Martes 12:00 - 16:00 
+### Unidades:   
 [[ teoria-de-conjuntos | Teoria de Conjuntos ]]    
 [[ funciones | Funciones ]]    
 [[ fundamentos-de-logica | Fundamentos de Logica ]]    
-# Pruebas:   
+### Pruebas:   
 [[ pp1 | PP1 ]]    
-   
-#    
    
 
 

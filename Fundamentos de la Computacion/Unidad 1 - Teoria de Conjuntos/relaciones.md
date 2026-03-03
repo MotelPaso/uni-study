@@ -32,7 +32,7 @@ Una relación sera simétrica si todo par de elementos $(a,b)$ existe relacionad
 $$
 A = \{1,2,3\}\hspace{1cm} R = \{ (1,2),(2,1),(3,2),(2,3) \}
 $$
-
+>[!IMPORTANT]
 > Pueden faltar ambos pares, faltando en el ejemplo anterior $(3,1), (1,3)$. Solo se rompe si solo hay uno de los dos en la relacion.   
 
 ### Antisimétrica:   

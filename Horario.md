@@ -1,0 +1,9 @@
+|     |                 Lunes                 |                     Martes                     |                   Miercoles                    |           Jueves           |          Viernes           |
+| :-- | :-----------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :------------------------: | :------------------------: |
+| A   |                                       |                                                |                                                |                            |                            |
+| B   |                                       |                                                |                                                | [[Electrotecnia\|Electro]] |                            |
+| C   | [[Estructuras de Datos\|Estructuras]] | [[Fundamentos de la Computacion\|Fundamentos]] |                                                | [[Electrotecnia\|Electro]] | [[Electrotecnia\|Electro]] |
+| C2  |                                       |                                                |                                                |                            |                            |
+| D   |                                       |                                                | [[Fundamentos de la Computacion\|Fundamentos]] |           Python           |                            |
+| E   |                                       |                                                |                                                |                            |                            |
+| F   | [[Estructuras de Datos\|Estructuras]] |     [[Estructuras de Datos\|Estructruras]]     |                                                |                            |                            |

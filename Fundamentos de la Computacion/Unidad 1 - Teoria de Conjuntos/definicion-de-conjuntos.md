@@ -37,7 +37,7 @@ $$
 $$
 \{3,2,1\} = \{1,2,3\}
 $$
-> Los conjuntos numéricos $\mathbb{N, Z, Q }$, son también conjuntos.   
+> Los conjuntos numéricos $\mathbb{N, Z, Q }$ son también conjuntos.   
 ## Elementos y cardinalidad   
 Un elemento es cualquier objeto que este dentro de un set, esto puede ser tanto un numero como otro conjunto.   
 La cardinalidad de un set es su **longitud**, contando cada elemento que forma parte de este.   

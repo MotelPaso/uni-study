@@ -29,7 +29,7 @@ Correo: juan.nilo@ce.ucn.cl
 Lunes 10:00 - 13:00   
 Martes 12:00 - 16:00   
 ### Unidades:
-[[ punteros-y-memoria | Punteros y Memoria ]]    
-[[ listas-enlazadas | Listas Enlazadas ]]    
+[[Estructuras de Datos/Unidad - Punteros y Memoria/punteros-y-memoria.md|Punteros Y Memoria]]
+[[Estructuras de Datos/Unidad - Listas Enlazadas/listas-enlazadas.md|Listas Enlazadas]]
 ### Pruebas:
 [[ pp1_k | PP1 ]]
