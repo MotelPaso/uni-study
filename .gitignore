@@ -1,9 +1,11 @@
-*.json
 *.js
 
 *.mdc
 *.mdb
 
 .obsidian/*
+.space
+.trash
+.makemd
 
-!.obsidian/themes/
+!.obsidian/themes
