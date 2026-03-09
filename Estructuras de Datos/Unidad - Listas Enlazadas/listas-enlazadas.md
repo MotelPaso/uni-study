@@ -12,7 +12,7 @@ Links:
 
 ### Definición:
 
-Una **lista enlazada** es una estructura de datos lineal compuesta por **nodos**, donde cada nodo almacena un dato y un puntero al siguiente nodo de la lista.
+Una **lista enlazada** es una estructura de datos lineal compuesta por **[[nodo|nodos]]** donde cada nodo almacena un dato y un puntero al siguiente nodo de la lista.
 A diferencia de un arreglo, los nodos **no** están juntos en memoria, cada uno puede estar en cualquier dirección, enlazándose mediante [[punteros-y-memoria|punteros]].
 ### Utilidad:
 
@@ -28,30 +28,6 @@ Son útiles cuando se necesitan inserciones y eliminaciones frecuentes, ya que n
 | Constructor    | O(1)   | Solo crea el nodo cabeza        |
 | Destructor     | O(n)   | Borra todos los nodos           |
 ### Implementación:
-#### Nodo:
-Primero, se inicia creando una clase `{cpp} Node`, que tenga dos atributos, sus datos y la dirección (puntero) del proximo `{cpp} Node` en la lista.
-
-```cpp
-class Node{
-	int data;
-	Node* next;
-public:
-	Node() : next(nullptr){};
-	void setData(int& data){
-		this->data = data;
-	}
-	const int* getData(){
-		return &data;
-	}
-	Node* getNextNode(){
-	return next;
-	}
-	void setNextNode(Node* next){
-		this->next = next;
-	}
-};
-```
-
 #### Lista Enlazada:
 ##### LinkedList.h
 Definimos en el header los métodos de la clase a trabajar.
@@ -113,7 +89,7 @@ void LinkedList::remove(int data){
 	Node* prev = nullptr; // uno actual y uno anterior
 	while (current != nullptr) // mientras queden nodos
 	{
-		if (*(current->getData()) == data) // si coincide el actual
+		if (current->getData() == data) // si coincide el actual
 		{
 			if (prev != nullptr) // si no es el primero
 			{
@@ -141,7 +117,7 @@ int LinkedList::getAtIndex(const int index){
 	while (current != nullptr){ // mientras hayan nodos en la lista
 		if (currentIndex == index) // si lo encontramos
 		{
-			return *( current->getData() ); // devolvemos los datos
+			return current->getData(); // devolvemos los datos
 		}
 		current = current->getNextNode();
 		currentIndex++;
@@ -154,7 +130,7 @@ std::string LinkedList::printList(){
 	std::string text = "";
 	while (current != nullptr)
 	{ 
-		text += std::to_string(*(current->getData()));
+		text += std::to_string(current->getData());
 		if (current->getNextNode() != nullptr) {
 			text += " -> ";
 		}
