@@ -12,8 +12,8 @@ Links:
 
 ### Definición:
 
-Una lista enlazada es una estructura de datos lineal compuesta por **nodos**, donde cada nodo almacena un dato y un puntero al siguiente nodo de la lista.
-A diferencia de un arreglo, los nodos no están juntos en memoria, cada uno puede estar en cualquier dirección, enlazándose mediante [[Estructuras de Datos/Unidad - Punteros y Memoria/punteros-y-memoria.md|punteros]].
+Una **lista enlazada** es una estructura de datos lineal compuesta por **nodos**, donde cada nodo almacena un dato y un puntero al siguiente nodo de la lista.
+A diferencia de un arreglo, los nodos **no** están juntos en memoria, cada uno puede estar en cualquier dirección, enlazándose mediante [[punteros-y-memoria|punteros]].
 ### Utilidad:
 
 Son útiles cuando se necesitan inserciones y eliminaciones frecuentes, ya que no requieren reorganizar la memoria. Su desventaja es que el acceso a un elemento específico requiere recorrer la lista desde el inicio.
@@ -78,6 +78,7 @@ Esta es la implementación de todos los métodos de la lista.
 ```cpp
 #include "LinkedList.h"
 #include "Node.h"
+#include <string>
 
 LinkedList::LinkedList(int data){
 	head = new Node(); 

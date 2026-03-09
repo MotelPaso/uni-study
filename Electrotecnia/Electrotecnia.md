@@ -1,4 +1,4 @@
-﻿---
+---
 Object type:
     - Curso
 Universidad:
@@ -13,21 +13,14 @@ Links:
     - 5to-semestre
 ---
 # Electrotecnia   
-## Datos del Profesor:   
-Nombre:   
-Correo:   
- --- 
-### **Horario:**   
-Lunes 10:00 - 13:00   
-Martes 12:00 - 16:00   
- --- 
-# Unidades:   
+### Datos del Profesor:   
+Nombre: Hector Gonzalez   
+Correo: hector.gonzalez@ce.ucn.cl
+### Horario:   
+Jueves 09:55 - 13:10   
+Viernes 11:40 - 13:10   
+### Unidades:   
 Unidad 1: Nombre de la unidad   
-   
-   
-   
-   
-#    
    
 
 
