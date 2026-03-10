@@ -9,10 +9,10 @@ Links:
     - Estructuras de Datos
 ---
 # Punteros y Memoria   
-Un **puntero **es un nuevo datatype exclusivo\* a C y C++ que guardan la dirección de memoria de otra variable.   
+Un **puntero** es un nuevo datatype exclusivo\* a C y C++ que guardan la dirección de memoria de otra variable.   
 > La dirección de memoria usualmente es un número hexadecimal que se ve así : 0xb73eb000   
+> Siempre empiezan con `0x` y contienen `0-9` y `a-f`.
 
-Siempre empiezan con `0x` y contienen `0-9` y `a-f`   
 Sirven para trabajar con datos que puede que no estén al alcance de la función actual o para crear estructuras de datos complejas.   
 Se crean de la siguiente manera:   
 ```cpp
@@ -23,7 +23,7 @@ int main()
 	return 0;
 }
 ```
-El símbolo `\*` tiene dos significados dependiendo de en que lado esté de la igualdad.   
+El símbolo `*` tiene dos significados dependiendo de en que lado esté de la igualdad.   
 1. Indica que la variable a crear va a ser un puntero.   
     ```cpp
     int* puntero = &num; // 0x.......
@@ -32,10 +32,12 @@ El símbolo `\*` tiene dos significados dependiendo de en que lado esté de la i
     ```cpp
     int copia_de_num = *puntero; // 5
     ```
-3. El símbolo `&` nos devuelve la dirección de una variable.   
-	```cpp
+
+El símbolo `&` nos devuelve la dirección de una variable.   
+```cpp
 	std::cout << &num << std::endl; // 0x.......
-	```
+```
+
 ### Ejemplo grande:   
 ```cpp
 #include <iostream>

@@ -1,17 +1,14 @@
 ---
 Object type:
-    - Unidad
+  - Unidad
 Backlinks:
-    - Estructuras de Datos
-Creation date: "2026-01-24T01:02:24Z"
+  - Estructuras de Datos
+Creation date: 2026-01-24T01:02:24Z
 Links:
-    - Estructuras de Datos
-    - motelpaso
+  - Estructuras de Datos
+  - motelpaso
 ---
 # Listas Enlazadas
-### Implementación:
-#### Nodo:
-Primero, se inicia creando una clase `{cpp} Node`, que tenga dos atributos, sus datos y la dirección (puntero) del proximo `{cpp} Node` en la lista.
 
 ```cpp
 class Node{
@@ -30,7 +27,9 @@ public:
 Aqui vamos a definir todos los metodos necesarios 
 
 ```cpp
+#pragma once
 #include "Node.h"
+#include <string>
 class LinkedList {
 	Node *head;
 public:
@@ -38,10 +37,10 @@ public:
 	LinkedList(int data);
 	~LinkedList();
 	void append(int data);
-	&int getAtIndex(int index);
 	void remove(int data);
-	string showList();
-}
+	int getAtIndex(int index);
+	std::string printList();
+};
 ```
 
 ##### LinkedList.cpp
