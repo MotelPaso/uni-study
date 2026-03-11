@@ -24,7 +24,7 @@ Links:
 # Estructuras de Datos
 
 ### Datos del Profesor:
-Nombre: Juan Nilo Iturra   
+Nombre: Bastian Ruiz   
 Correo: juan.nilo@ce.ucn.cl 
 
 ### **Horario:**  

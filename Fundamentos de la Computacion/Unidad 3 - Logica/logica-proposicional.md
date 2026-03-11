@@ -8,7 +8,7 @@ Creation date: "2026-02-07T15:51:05Z"
 Links:
     - fundamentos-de-logica
 ---
-# Logica Proposicional   
+# Lógica Proposicional   
 Un enunciado es una oración que describe algún evento o cualidad de algo. Puede ser verdadera o falsa.
 Las proposiciones se utilizan para "resumir" en un enunciado para su uso rápido en la lógica proposicional.
 ### Ejemplo:   
