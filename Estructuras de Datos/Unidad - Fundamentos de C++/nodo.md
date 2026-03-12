@@ -10,11 +10,11 @@ private:
 	int data;
 	Node* next;
 public:
-	Node() : next(nullptr);
+	Node() : next(nullptr) {};
 	void setData(int data) { this->data = data;}
-	const int getData { return data; };
-	void setNextNode(Node* next) { this->next = next };
-	const Node* getNextNode { return next };
+	const int getData() { return data; };
+	void setNextNode(Node* next) { this->next = next; };
+	const Node* getNextNode() { return next; };
 }
 
 ```

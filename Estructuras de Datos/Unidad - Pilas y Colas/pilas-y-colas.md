@@ -73,6 +73,9 @@ int Stack::pop()
 }
 const int *Stack::checkTop()
 {
+	if (top == nullptr){
+		return nullptr;
+	}
   return top->getData();
 }
 ```
@@ -80,4 +83,63 @@ const int *Stack::checkTop()
 # Cola (Queue)
 ### Implementación:
 #### Queue.h
+```cpp
+#include "Node.h"
+class Queue {
+	Node* first;
+	Node* last;
+public:
+	Queue(): first(nullptr), last(nullptr) {};
+	~Queue();
+	void push(int data);
+	int pop();
+	const int* checkTop();
+	bool isEmpty();
+};
+```
 
+#### Queue.cpp
+```cpp
+#include "Queue.h"
+#include "Node.h"
+Queue::~Queue()
+{
+	while (!isEmpty()){
+		Node* temp = last->getNextNode();
+		delete last;
+		last = temp;
+	}
+}
+void Queue::push(int data) {
+	Node* newNode = new Node();
+	newNode->setData(data);
+	if (isEmpty()) {
+		first = newNode;
+		last = newNode;
+		return;
+	}
+	// else
+	last->setNextNode(newNode);
+	last = newNode;
+	return;
+}
+
+int Queue::pop(){
+
+	if (isEmpty()) return -1; 
+	int data = *(first->getData());
+	Node* temp = first;
+	first = first->getNextNode();
+	delete temp;
+	return data;
+}
+const int* Queue::checkTop(){
+	if (first == nullptr){
+		return nullptr;
+	}
+	return first->getData();
+}
+bool Queue::isEmpty() {
+return first == nullptr && last == nullptr;
+}
+```
