@@ -38,6 +38,29 @@ $$
 \{3,2,1\} = \{1,2,3\}
 $$
 > Los conjuntos numéricos $\mathbb{N, Z, Q }$ son también conjuntos.   
+## Conjunto vacío: $\emptyset$   
+Se define como un conjunto sin ningún elemento con las siguientes propiedades.   
+$$
+\emptyset = \{\ \} \hspace{16px} |\,\emptyset \, | = 0 \hspace{16px} \left| \{ \emptyset\}\right| = 1
+$$
+
+## Subconjuntos:   
+Para que un conjunto $A$ se considere como un subconjunto de $B$, todos los elementos de $A$ **tienen** que estar en $B$.
+Se denota con $\subset$ o $\subseteq$, dependiendo del caso.   
+Escrito: $A \subseteq B$, A es un subconjunto de B.    
+$$
+\begin{aligned}
+\{a, b, a, a\} \subseteq \{a,b,c\} &\longrightarrow \{ a,b\} \subseteq \{a,b,c\} \text{True}\\
+\{a\} \subseteq \{\{a\}\} \text{False}  &\longrightarrow \{a\} \nsubseteq \{\{a\}\}
+\end{aligned} 
+$$
+Falso, porque tiene que ser exactamente el mismo elemento, estamos preguntando si "a" esta en el conjunto { "{a}" } y no lo está, no importa si hay un conjunto dentro que tenga "a".  
+
+$$
+\emptyset \subseteq \{x,y,z\} \hspace{10px} \text{True}
+$$
+
+No hay nada en el conjunto vacío, así que si o si esta en el conjunto.   
 ## Elementos y cardinalidad   
 Un elemento es cualquier objeto que este dentro de un set, esto puede ser tanto un numero como otro conjunto.   
 La cardinalidad de un set es su **longitud**, contando cada elemento que forma parte de este.   
@@ -47,28 +70,6 @@ La cardinalidad de un set es su **longitud**, contando cada elemento que forma p
 > "1" es un elemento de A, $1 \in A$.   
 > "4 no es un elemento de A, $4 \notin A$   
 > La cardinalidad de A es 4, $|A| = 4$   
-## Conjunto vacio: $\emptyset$   
-Se define como un conjunto sin ningún elemento con las siguientes propiedades.   
-$$
-\emptyset = \{\ \} \hspace{16px} |\,\emptyset \, | = 0 \hspace{16px} \left| \{ \emptyset\}\right| = 1
-$$
-## Subconjuntos:   
-Para que un conjunto $A$ se considere como un subconjunto de $B$, todos los elementos de $A$ **tienen** que estar en $B$.
-Se denota con $\subset$ o $\subseteq$, dependiendo del caso.   
-Escrito: $A \subseteq B$, A es un subconjunto de B.    
-$$
-\begin{aligned}
-\{a, b, a, a\} \subseteq \{a,b,c\} \longrightarrow \{ a,b\} \subseteq \{a,b,c\} \hspace{10px}\text{True}\\
-\{a\} \subseteq \{\{a\}\} \hspace{10px} \text{False}  \longrightarrow \{a\} \nsubseteq \{\{a\}\}
-\end{aligned}
-$$
-Falso, porque tiene que ser exactamente el mismo elemento, estamos preguntando si "a" esta en el conjunto { "{a}" } y no lo está, no importa si hay un conjunto dentro que tenga "a".  
-
-$$
-\emptyset \subseteq \{x,y,z\} \hspace{10px} \text{True}
-$$
-
-No hay nada en el conjunto vacío, así que si o si esta en el conjunto.   
 ## Conjunto Potencia:   
 El conjunto potencia es aquel conjunto que contiene todos los posibles subconjuntos de un conjunto determinado. 
 $$
@@ -84,6 +85,85 @@ $$
 |A| = n  \Rightarrow \left|p(A)\right| = 2^n
 $$
 
-
-
-
+## Leyes basicas de conjuntos.
+#### Regla Conmutativa:
+$$
+\begin{aligned}
+a)\ A\cup B = B \cup A\\
+b)\ A\cap B = B \cap A
+\end{aligned}
+$$
+#### Regla Asociativa:
+$$
+\begin{aligned}
+(A\cup B) \cup C = A\cup (B \cup C)
+\end{aligned}
+$$
+#### Regla Distributiva:
+$$
+\begin{aligned}
+A\cup (B \cap C) = (A \cup B)\cap(A \cup C)\\
+A\cap (B \cup C) = (A \cap B)\cup(A \cap C)
+\end{aligned}
+$$
+#### Regla Identidad:
+$$
+\begin{aligned}
+A \cup \emptyset &= A\\
+A \cap U &= A
+\end{aligned}
+$$
+#### Complementos:
+$$
+\begin{aligned}
+U^c = \emptyset \\
+\emptyset^c = U
+\end{aligned}
+$$
+##### Regla de complementos:
+$$
+\begin{aligned}
+A \cup A^c &= U\\
+A \cap A^c &= \emptyset
+\end{aligned}
+$$
+##### Doble complementos:
+$$
+\begin{aligned}
+(A^c)^c = A
+\end{aligned}
+$$
+#### Regla Diferencia:
+$$
+\begin{aligned}
+A-B = A \cap B^c
+\end{aligned}
+$$
+#### Reglas independientes:
+$$
+\begin{aligned}
+A\cap A = A\\
+A\cup A = A
+\end{aligned}
+$$
+#### Limites Universales:
+$$
+\begin{aligned}
+A \cup U &= U\\
+A \cap \emptyset &= \emptyset
+\end{aligned}
+$$
+#### Ley de Morgan:
+$$
+\begin{aligned}
+(A \cup B)^c = A^c \cap B^c\\
+(A \cap B)^c = A^c \cup B^c\\
+\end{aligned}
+$$
+#### Leyes de Absorcion:
+$$
+\begin{aligned}
+A\cup (A\cap B) = A\\
+A\cap (A\cup B) = A
+\end{aligned}
+$$

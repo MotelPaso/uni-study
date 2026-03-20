@@ -24,20 +24,16 @@ $\subseteq$: "Algo" es subconjunto de "Algo"
 $\forall$: Para todo   
 ## Relación entre dos conjuntos.   
 Para demostrar que se cumple una relación entre dos conjuntos, como:   
-
 $$
-\overline{A\cup B} \subseteq \overline{A}\cap \overline{B}
+\overline{A\cup B} = \overline{A}\cap \overline{B}
 $$
 
 Se empieza definiendo un "caso base" desde un lado de la igualdad:   
-
 $$
 \forall x : x \in \overline{A\cup B}
 $$
-
 Desde aquí, empezamos a trabajar empleando las definiciones de cada operación posible en los conjuntos.   
 > Cada definición que usemos nos sirve para "validar" nuestro trabajo. 
-
 $$
 \begin{aligned}
 &\forall x : x \in \overline{A\cup B}  &\text{/ def. complemento}\\
@@ -48,8 +44,9 @@ $$
 \end{aligned}
 $$
 > Si la relación entre los conjuntos es un $=$, se tiene que realizar el trabajo dos veces, una empezando por la izquierda, y otra empezando por la derecha, el procedimiento es igual.   
-## Tipos de demostraciones:   
-### Demostración Directa:   
+
+#### Tipos de demostraciones:   
+##### Demostración Directa:   
 
 
 

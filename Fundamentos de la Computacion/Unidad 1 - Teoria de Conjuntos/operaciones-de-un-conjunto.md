@@ -9,20 +9,19 @@ Creation date: "2026-01-25T03:36:46Z"
 Links:
     - teoria-de-conjuntos
 ---
-# Operaciones de un Conjunto   
-## Complemento: $\overline A = \{ a \in\mathbb{U}\mid a \notin A\}$   
+#### Complemento: $\overline A = \{ a \in\mathbb{U}\mid a \notin A\}$   
 El complemento es todo elemento que exista en el universo $\mathbb{U}$, pero que no esté en $A.$
 Se escribe como $\overline A,\quad A^c ,\quad A'$.   
-## Intersección: $A \cap B =  \{ x \mid x\in A \land x \in B\}$   
+#### Intersección: $A \cap B =  \{ x \mid x\in A \land x \in B\}$   
 La intersección se define como los elementos que sean parte de $A$ y al mismo tiempo, sean parte de $B.$   
 Se escribe como $A \cap B$.   
-## Union: $A \cup B = \{ x \mid x \in A \lor x \in B\}$   
+#### Union: $A \cup B = \{ x \mid x \in A \lor x \in B\}$   
 La union se define como los elementos que son parte de $A$ **o** son parte de $B$.   
 Se escribe como $A \cup B$   
-## Diferencia: $A-B = \{ x \mid x \in A \land x \notin B\}$   
+#### Diferencia: $A-B = \{ x \mid x \in A \land x \notin B\}$   
 La diferencia se define como los elementos que son parte de A **y**  no son parte de B.   
 Se escribe como $A-B,\quad A \setminus B, \quad A \cap B^c$.   
-## Diferencia Simetrica: $A\,\Delta\, B = \{x \mid x \in A \oplus x \in B\}$   
+#### Diferencia Simetrica: $A\,\Delta\, B = \{x \mid x \in A \oplus x \in B\}$   
 La diferencia simétrica se define como todos los elementos que no se repiten entre los conjuntos, se puede ver como la union de los conjuntos, pero quitando su intersección.   
 Se escribe como $A\, \Delta \,B, \quad A \oplus B, \quad A \ominus B$   
 $$

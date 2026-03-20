@@ -23,7 +23,7 @@ int main()
 	return 0;
 }
 ```
-El símbolo `*` tiene dos significados dependiendo de en que lado esté de la igualdad.   
+El símbolo `*` tiene dos significados dependiendo de si declara o no una variable.   
 1. Indica que la variable a crear va a ser un puntero.   
     ```cpp
     int* puntero = &num; // 0x.......
@@ -31,6 +31,7 @@ El símbolo `*` tiene dos significados dependiendo de en que lado esté de la ig
 2. Va a la dirección del puntero y toma el valor que este ahí.   
     ```cpp
     int copia_de_num = *puntero; // 5
+    *puntero = 6;
     ```
 
 El símbolo `&` nos devuelve la dirección de una variable.   
