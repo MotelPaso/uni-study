@@ -71,5 +71,6 @@ Como es un $\lor$, se tiene que $x \in (A-C) \cup (B-C)$
 ##### 2. $(A - C) \cup (B-C)\subseteq (A \cup B) - C$
 1. $x\in A-C \implies x\in A \land x\notin C$
 2. $x\in B-C \implies x\in B \land x \notin C$
-
-
+3. Se puede extraer que $(x \in A \lor x \in B)$ pero $x \notin C$
+Finalmente, por def de diferencia, se puede escribir como:
+$x\in (A\cup B) -C$
