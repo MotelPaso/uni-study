@@ -31,7 +31,7 @@ Lunes 10:00 - 13:00
 Martes 12:00 - 16:00 
 ### Unidades:   
 [[ teoria-de-conjuntos | Teoria de Conjuntos ]]    
-[[ funciones | Funciones ]]    
+[[Fundamentos de la Computacion/Unidad 2 - Funciones/funciones| Funciones ]]    
 [[ fundamentos-de-logica | Fundamentos de Logica ]]    
 ### Pruebas:   
 [[ pp1 | PP1 ]]    

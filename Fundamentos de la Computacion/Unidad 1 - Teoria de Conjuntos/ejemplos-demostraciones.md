@@ -1,8 +1,8 @@
-#### Demostrar que: $A \subseteq B \Longleftrightarrow A \cap B = A$
-##### Resolución:
+## Demostrar que: $A \subseteq B \Longleftrightarrow A \cap B = A$
+### Resolución:
 Como es una implicancia doble, tenemos que probar que ambas partes implican a la otra.
 $$A\subseteq B \implies A\cap B = A $$
-Si $A \subseteq B$, entonces $A\cap B = A$
+Derecha a izquierda: Si $A \subseteq B$, entonces $A\cap B = A$
 Como es una igualdad, tenemos que probar que ambas partes funcionan:
 1. $A \cap B \subseteq A$
 $$
@@ -18,14 +18,15 @@ $$
 &\text{Como } A \subseteq B \text{, entonces } x\in B
 \end{aligned}
 $$
-Si $A \cap B = A$, entonces $A\subseteq B$
+
+Izquierda a derecha: Si $A \cap B = A$, entonces $A\subseteq B$
 $$
 \begin{aligned}
 x \in A\\
 \text{Como: } A \cap B = A \implies x \in B
 \end{aligned}
 $$
-### Demostrar que: $A\cup (B\cap C) = (A\cup B) \cap (A\cup C)$
+## Demostrar que: $A\cup (B\cap C) = (A\cup B) \cap (A\cup C)$
 ##### 1.  $A\cup (B\cap C) \subseteq (A\cup B) \cap (A\cup C)$
 1.1: $x \in A$
 $$
@@ -61,7 +62,7 @@ x\in B \cap C &\implies x\in A \cup (B \cap C)
 $$
 En el caso 1, si esta en A, se demuestra directamente,
 si NO esta en A, tiene que estar en B y en C
-#### Demostrar que: $(A \cup B) - C = (A - C) \cup (B-C)$
+### Demostrar que: $(A \cup B) - C = (A - C) \cup (B-C)$
 ##### 1. $(A \cup B) - C \subseteq (A - C) \cup (B-C)$
 1. $x \in A\cup B \implies x\in A \lor x\in B$
 2. $x \notin C$
