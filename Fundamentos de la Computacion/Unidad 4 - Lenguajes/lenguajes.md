@@ -1,6 +1,5 @@
 # Alfabetos
 ### Definición:
-#### 1.
 Se define como cualquier conjunto finito no vacío, y se denota como $\Sigma$.
 > [!WARNING]
 > No confundir con sumatorias.
@@ -8,11 +7,6 @@ Se define como cualquier conjunto finito no vacío, y se denota como $\Sigma$.
 Los elementos de un alfabeto se llaman **Símbolos o Caracteres**.
 ##### Ejemplo:
 Los computadores tienen un alfabeto de $\{0,1\}$, 
-#### 2. Cadena (String)
-Un string es una secuencia finita de símbolos pertenecientes a un alfabeto $\Sigma$.
-$$
-\Large{\Sigma ^* = \Sigma ^0 \cup \Sigma^1 \cup \cdots}
-$$
 ##### Ejemplo 1: Alfabeto
 $$
 \begin{aligned}
@@ -22,51 +16,85 @@ $$
 \Sigma^2 &= \{aa,ab,ba,bb\}\\
 \end{aligned}
 $$
+# Cadena (String)
+Un string es una secuencia finita de símbolos pertenecientes a un alfabeto $\Sigma$.
+$$
+\Large{\Sigma ^* = \Sigma ^0 \cup \Sigma^1 \cup \cdots}
+$$
+
+Una cadena x sobre $\Sigma$ se ensamblara agregando caracteres uno luego del otro, es decir:
+$$
+a_1a_2a_3 \cdots a_{k}
+$$
+Donde $k =$ a la longitud de la cadena. $|x|$
+>[!NOTE]
+>Epsilon $\epsilon$ no es lo mismo que un conjunto vacio $\emptyset$, representa una **cadena** vacia.
+
+La concatenación de dos cadenas $X = a_1a_2a_3\cdots a_{n}$ e $Y= b_1b_2b_3\cdots b_{m}$ se escribe como:
+$$
+xy = a_1 \cdots a_n b_1\cdots b_m
+$$
+Finalmente usaremos $x^k$ para denotar $k$ concatenaciones sucesivas de x, es decir:
+$$
+x^0 = \epsilon \qquad
+x^k = x x^{k-1}
+$$
 ##### Ejemplo 2: Cadena
 $$
 \begin{aligned}
-x &= ab\\
-x^0 &= \epsilon\\
-x^1 &= ab\\
-x^2 &= abab\\
-|x| &= 2
+&x = ab \qquad \qquad \qquad y = cd\\
+&x^0 = \epsilon\\
+&x^1 = ab\\
+&x^2 = abab\\
+&xy  = abcd\\
+&y^3x^2 =cd|cd|cd|ab|ab \rightarrow cdcdcdabab\\
+&|x| = 2
 \end{aligned}
 $$
->[!NOTE]
->Epsilon $\epsilon$ no es lo mismo que un conjunto vacio $\emptyset$, representa una **cadena** vacia.
-### Definición Formal de String:
-$\Sigma^*$ denota el conjunto de todas las secuencias finitas de simbolos de $\sum$.
-El conjunto $\Sigma^0$ es especial y contiene solo un elemento llamado $\epsilon$.
-Si una cadena $x \in \Sigma^k$, entonces decimos que su largo sera $|x| = k$, *véase ejemplo  es1*.
-Un ultimo conjunto relevante es $\Sigma^+ = \Sigma^* - \{\epsilon\}$
-
-Dadas cadenas $x, y, z$, diremos que x es un prefijo de $xy$, y es un sufijo de $yx$.
-Tambien es una subcadena de ambos.
-
+### Algunas propiedades:
+1. $\Sigma^*$ denota el conjunto de todas las secuencias finitas de símbolos de $\sum$.
+2. El conjunto $\Sigma^0$ es especial y contiene solo un elemento llamado $\epsilon$.
+3. Si una cadena $x \in \Sigma^k$, entonces decimos que el largo de cada cadena será $|x| = k$, *véase ejemplo 1*.
+4. Un ultimo conjunto relevante es $\Sigma^+ = \Sigma^* - \{\epsilon\}$, que es el alfabeto positivo.
+5. Existen las **subcadenas**, que son cualquier cadena que exista dentro de una cadena.
+		Una cadena $x = adhew$, tiene como subcadenas a $\{ad, hew, dhew, ew, adhe, w, \dots\}$, mas no $\{aw\}$, por estar fuera de orden.
+6. Dadas cadenas $x, y, z$, diremos que $x$ es un *prefijo* de $xy$, e $y$ es un *sufijo* de $yx$.
 ##### Ejemplo 3:
 Para $w = abaab$, calcular los prefijos, los sufijos y las subcadenas.
 Prefijos = $\{ a, ab, aba, abba, abaab, \epsilon\}$
 Sufijos = $\{\epsilon, b, ab, aab, baab, a\}$
 Subcadenas = $\{a, ab, baa, aab, baab, \cdots\}$
-> Las subcadenas son cualquier combinacion (ordenada) de caracteres que exista en la cadena. Es como sacarle una parte.
 # Lenguajes
-Un lenguaje sobre un alfabeto \Sigma es cualquier subconjunto de \Sigma^*
+Un lenguaje sobre un alfabeto $\Sigma$ es cualquier subconjunto de $\Sigma^*$, se puede expresar tanto señalando sus elementos uno a uno o definiendo una regla que todos sus elementos deben cumplir.
+Se puede definir el lenguaje como un conjunto de cadenas de un alfabeto determinado.
 ##### Ejemplo:
 $$
-L_1 = \{a,ab,bbb\}\\
-L_2 = \{x\in \{0,1\}^* : \text{x termina en 1}\}
+\begin{aligned}
+&L_1 = \{a,ab,bbb\}\\
+&L_2 = \{x\in \{0,1\}^* : \text{x termina en 1}\}
+\end{aligned}
 $$
-Se puede definir el lenguaje como un conjunto de cadenas.
-
 > [!IMPORTANT]
 > Cualquier operacion sobre conjuntos puede realizarse sobre lenguajes, añadiendo la concatenacion, la potencia, la clausula de Kleene y el complemento.
-#### Concatenacion:
-$L1 \cdot L2 = \{xy \mid x\in L1 \land x\in L2\}$
+#### Concatenación:
+La concatenación de lenguajes es similar a las relaciones entre conjuntos, donde se debe respetar el orden definido.
+$L_1 \cdot L_2 = \{xy \mid x\in L_1 \land x\in L_2\}$
+##### Ejemplo 4:
+$$
+\begin{aligned}
+&\text{Se tienen los siguientes lenguajes:}\\
+&L_1 = \{ab, bc\} \qquad L_2 = \{xd, ba\}\\
+&L_1 \cdot L_2 = \{ab|xd, ab|ba,bc|xd,bc|ba\}
+\end{aligned}
+$$
+> Los | están para separar un poco las concatenaciones y se entienda, no se ponen formalmente.
+> $xd|ab$ no forma parte de $L_1 \cdot L_2$.
 #### Potencia:
 $L^0 = \{\epsilon\}, L^k = L \cdot L^{k-1}$
 #### Clausula de Kleene:
 $L^* = U_{K \geq 0} L^k$
 #### Complemento:
+El complemento de un lenguaje se define como todos los elementos que son parte del alfabeto inicial, menos los elementos que están en el lenguaje.
 $L^c = \Sigma^* - L$
 ### Ejemplos:
 $$
@@ -75,7 +103,7 @@ $$
 &\Sigma = \{a,b\}\\
 &L_1 = \{a,b\}\\
 &L_2 = \{aa,bb\}\\
-&L_1 \cdot L_2 = \{aaa, abb, baa, bbb\}\\
+&L_1 \cdot L_2 = \{a|aa, a|bb, b|aa, b|bb\}\\
 &L_1^0 = \{\epsilon\}\\
 &L_1^2 = \{aa,ab,ba,bb\}\\
 &L_1^* = \Sigma^*

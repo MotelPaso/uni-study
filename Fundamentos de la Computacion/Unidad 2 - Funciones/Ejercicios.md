@@ -22,20 +22,7 @@ $$
 &\text{No Cadenas: n, \{a\}}
 \end{aligned}
 $$
-$$
-\begin{aligned}
-&\text{Una cadena x sobre }\Sigma \text{ se ensamblara yuxtaponiendo sus caracteres uno luego del otro, es decir:}\\
-&(a1,a2,a3,a_{|x|})\\
-&a_i \in \Sigma_1, \text{Se escribiria como: }\\
-&X = a_1a_2a_3\cdots a_{|x|}\\ \\ \\
-&\text{La concatenacion de dos cadenas: } X = a_1a_2a_3\cdots a_{n} \mid Y= b_1b_2b_3\cdots b_{m} \text{se escribe como:}\\
-& xy = a_1 \cdots a_n b_1\cdots b_m
-\end{aligned}
-$$
 
-Finalmente usaremos x^k para denotar K concatenaciones sucesivas de x, es decir:
-x^0 = \epsilon
-y x^k = x x^{k-1}
 
 
 Si x = aba, calcular |x|, x^2, x^0,

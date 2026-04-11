@@ -101,9 +101,6 @@ Dado $f:X \rightarrow Y$, se define la inversa como:
 $$
 f^{-1} : Y \rightarrow X
 $$
-
-
-Alfabetos y Lenguajes.
 Logica.
 Automatas finitos.
 Maquinas de Turing
