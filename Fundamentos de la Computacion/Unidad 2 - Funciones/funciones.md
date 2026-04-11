@@ -23,10 +23,10 @@ Para todo $y \in Y$, se le llamara Imagen o Rango.
 ### Ejemplo:
 $$
 \begin{aligned}
-\begin{array}
-&f(x) = &0\ \text{if } x \notin A\\ &1 \text{ if } x \in A
-\end{array}\\
-f: Z \rightarrow \{0,1\}
+&f(x) = \begin{cases}
+0\ \text{if } x \notin A\\ 1 \text{ if } x \in A
+\end{cases}\\
+&f: Z \rightarrow \{0,1\}
 \end{aligned}
 $$
 ## Composición de funciones:
@@ -41,7 +41,7 @@ $$
 $$
 # Propiedades:   
 ## Inyectiva:   
-Se le dice inyectiva a las funciones que, al evaluar cualquier valor dentro de una función definida, la imagen que retorna es unica para ese valor.   
+Se le dice inyectiva a las funciones que, al evaluar cualquier valor dentro de una función definida, la imagen que retorna es única para ese valor.   
 > No existen valores repetidos.   
 ### Definición:   
 Para todo $a, b$ en $X$, si $a$ no es igual a $b$, entonces una función evaluada en $a$, no es igual a la misma función evaluada en $b$.   
@@ -54,11 +54,10 @@ $$
 \end{aligned}
 $$
 ### Ejemplos:   
-
 $$
 \begin{aligned}
 &f(x) = 2x + 5 \\
-\text{Forma 1 (Definición):} && \text{Forma 2 (Derivada): }\\
+\text{Forma 1 (Contrapositiva):} && \text{Forma 2 (Derivada): }\\
 f(x) = f(y) \longrightarrow 2x + 5 = 2y + 5\  && f'(x) = 2 \rightarrow \text{Constante} \\
 2x = 2y\ \big / :2 &&\therefore \text{Inyectiva}\\
 x = y  \therefore \text{Inyectiva}
@@ -72,6 +71,8 @@ f(x) = f(y) \rightarrow x^2 = y^2 \big/ \verb=^= 1/2\\
 \pm x = \pm y \therefore \text{No inyectiva.}
 \end{gathered}
 $$
+> [!NOTE]
+> Para demostrarlo utilizando la derivada, una función será inyectiva si y solo si su derivada es siempre positiva o siempre negativa en ese intervalo.
 ## Sobreyectiva:   
 Las funciones sobreyectivas son las funciones que para toda imagen, exista, como mínimo, una pre-imagen.   
 ### Definición:   
@@ -92,10 +93,9 @@ y = 3x -6\\
 \frac{y+6}{3} = x \\y\in \mathbb{R} \therefore \text{Sobreyectiva}
 \end{aligned}
 $$
-> Se tiene que considerar los conjuntos de **dominio**, **codominio** y el **rango** de la función.
+> Se tienen que considerar los conjuntos de **dominio**, **codominio** y el **rango** de la función.
 ## Biyectiva:   
 Son las funciones que son tanto inyectivas como sobreyectivas, se demuestran trivialmente al demostrar sus dependencias.
-
 ## Inversa:
 Dado $f:X \rightarrow Y$, se define la inversa como:
 $$

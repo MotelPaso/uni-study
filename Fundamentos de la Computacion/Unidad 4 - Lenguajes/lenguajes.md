@@ -55,14 +55,15 @@ $$
 1. $\Sigma^*$ denota el conjunto de todas las secuencias finitas de símbolos de $\sum$.
 2. El conjunto $\Sigma^0$ es especial y contiene solo un elemento llamado $\epsilon$.
 3. Si una cadena $x \in \Sigma^k$, entonces decimos que el largo de cada cadena será $|x| = k$, *véase ejemplo 1*.
-4. Un ultimo conjunto relevante es $\Sigma^+ = \Sigma^* - \{\epsilon\}$, que es el alfabeto positivo.
+4. Un ultimo conjunto relevante es $\Sigma^+ = \Sigma^* - \{\epsilon\}$, que la clausura positiva del alfabeto.
 5. Existen las **subcadenas**, que son cualquier cadena que exista dentro de una cadena.
 		Una cadena $x = adhew$, tiene como subcadenas a $\{ad, hew, dhew, ew, adhe, w, \dots\}$, mas no $\{aw\}$, por estar fuera de orden.
-6. Dadas cadenas $x, y, z$, diremos que $x$ es un *prefijo* de $xy$, e $y$ es un *sufijo* de $yx$.
+6. Por su definición, $\epsilon$ es una subcadena de cualquier cadena.
+7. Dadas cadenas $x, y, z$, diremos que $x$ es un *prefijo* de $xy$, e $y$ es un *sufijo* de $yx$.
 ##### Ejemplo 3:
 Para $w = abaab$, calcular los prefijos, los sufijos y las subcadenas.
-Prefijos = $\{ a, ab, aba, abba, abaab, \epsilon\}$
-Sufijos = $\{\epsilon, b, ab, aab, baab, a\}$
+Prefijos = $\{ a, ab, aba, abaa, abaab, \epsilon\}$
+Sufijos = $\{\epsilon, b, ab, aab, baab\}$
 Subcadenas = $\{a, ab, baa, aab, baab, \cdots\}$
 # Lenguajes
 Un lenguaje sobre un alfabeto $\Sigma$ es cualquier subconjunto de $\Sigma^*$, se puede expresar tanto señalando sus elementos uno a uno o definiendo una regla que todos sus elementos deben cumplir.
@@ -90,8 +91,10 @@ $$
 > Los | están para separar un poco las concatenaciones y se entienda, no se ponen formalmente.
 > $xd|ab$ no forma parte de $L_1 \cdot L_2$.
 #### Potencia:
+La potencia define que, tomando los elementos que están en el lenguaje, creemos todas las combinaciones de elementos (concatenación de strings) posibles con el largo $k$.
 $L^0 = \{\epsilon\}, L^k = L \cdot L^{k-1}$
 #### Clausula de Kleene:
+Es una potencia "infinita", son todas las combinaciones de elementos posibles de cualquier largo.
 $L^* = U_{K \geq 0} L^k$
 #### Complemento:
 El complemento de un lenguaje se define como todos los elementos que son parte del alfabeto inicial, menos los elementos que están en el lenguaje.
