@@ -8,7 +8,6 @@ Creation date: "2026-02-10T21:45:48Z"
 Links:
     - Fundamentos de la Computacion
 ---
-
 Es una manera de describir cuales elementos están conectados entre dos conjuntos:
 ## Definición:
 Siendo $A$ y $B$ conjuntos. 
