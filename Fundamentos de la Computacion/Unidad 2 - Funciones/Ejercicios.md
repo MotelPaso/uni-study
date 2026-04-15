@@ -22,13 +22,24 @@ $$
 &\text{No Cadenas: n, \{a\}}
 \end{aligned}
 $$
-
-
-
 Si x = aba, calcular |x|, x^2, x^0,
-
+$$
+\begin{aligned}
+&|x| = 3\\
+&x^2 = abaaba\\
+&x^0 = \epsilon
+\end{aligned}
+$$
 Para w = ababa, encuentre sus prefijos, sufijos y subcadenas.
-
+$$
+\begin{aligned}
+&\text{prefijos: } \{\epsilon, a, ab, aba, abab\}\\
+&\text{sufijos: } \{\epsilon, a, ba, aba, baba\}\\
+&\text{subcadenas:} \{\epsilon, a,ab,aba,abab,bab,baba, \cdots\}
+\end{aligned}
+$$
 Sea $L = \{a,ab\}$ y $M = \{b, ba\}$, calcular: $L \cdot M$
-
-Describir en palabras un lenguaje sobre \{0,1\} y dar cinco ejemplos de cadena que pertenezcan.
+$$
+L \cdot M = \{ab,aba,abb,abba\}
+$$
+Describir en palabras un lenguaje sobre $\{0,1\}$ y dar cinco ejemplos de cadena que pertenezcan.

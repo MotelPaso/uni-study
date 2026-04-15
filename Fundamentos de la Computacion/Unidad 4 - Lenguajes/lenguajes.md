@@ -6,7 +6,7 @@ Se define como cualquier conjunto finito no vacío, y se denota como $\Sigma$.
 
 Los elementos de un alfabeto se llaman **Símbolos o Caracteres**.
 ##### Ejemplo:
-Los computadores tienen un alfabeto de $\{0,1\}$, 
+Los computadores tienen un alfabeto de $\{0,1\}$, es decir, solo tienen un acceso base a esos caracteres.
 ##### Ejemplo 1: Alfabeto
 $$
 \begin{aligned}
@@ -22,15 +22,15 @@ $$
 \Large{\Sigma ^* = \Sigma ^0 \cup \Sigma^1 \cup \cdots}
 $$
 
-Una cadena x sobre $\Sigma$ se ensamblara agregando caracteres uno luego del otro, es decir:
+Una cadena $x$ sobre $\Sigma$ se ensamblara agregando caracteres uno luego del otro, es decir:
 $$
 a_1a_2a_3 \cdots a_{k}
 $$
 Donde $k =$ a la longitud de la cadena. $|x|$
 >[!NOTE]
->Epsilon $\epsilon$ no es lo mismo que un conjunto vacio $\emptyset$, representa una **cadena** vacia.
+>Epsilon $\epsilon$ no es lo mismo que un conjunto vacio $\emptyset$, representa una **cadena** vacía.
 
-La concatenación de dos cadenas $X = a_1a_2a_3\cdots a_{n}$ e $Y= b_1b_2b_3\cdots b_{m}$ se escribe como:
+La concatenación de dos cadenas $x = a_1a_2a_3\cdots a_{n}$ e $y= b_1b_2b_3\cdots b_{m}$ se escribe como:
 $$
 xy = a_1 \cdots a_n b_1\cdots b_m
 $$
@@ -52,18 +52,18 @@ $$
 \end{aligned}
 $$
 ### Algunas propiedades:
-1. $\Sigma^*$ denota el conjunto de todas las secuencias finitas de símbolos de $\sum$.
+1. $\Sigma^*$ denota el conjunto de todas las secuencias finitas (cadenas) de símbolos de $\sum$.
 2. El conjunto $\Sigma^0$ es especial y contiene solo un elemento llamado $\epsilon$.
-3. Si una cadena $x \in \Sigma^k$, entonces decimos que el largo de cada cadena será $|x| = k$, *véase ejemplo 1*.
+3. Si una cadena $x \in \Sigma^k$, entonces diremos que el largo de cada cadena será $|x| = k$, *véase ejemplo 1*.
 4. Un ultimo conjunto relevante es $\Sigma^+ = \Sigma^* - \{\epsilon\}$, que la clausura positiva del alfabeto.
 5. Existen las **subcadenas**, que son cualquier cadena que exista dentro de una cadena.
-		Una cadena $x = adhew$, tiene como subcadenas a $\{ad, hew, dhew, ew, adhe, w, \dots\}$, mas no $\{aw\}$, por estar fuera de orden.
+		Una cadena $x = adhew$, tiene como subcadenas a $\{ad, hew, dhew, ew, adhe, w, \dots\}$, más no $\{aw\}$, por estar fuera de orden.
 6. Por su definición, $\epsilon$ es una subcadena de cualquier cadena.
-7. Dadas cadenas $x, y, z$, diremos que $x$ es un *prefijo* de $xy$, e $y$ es un *sufijo* de $yx$.
+7. Dadas cadenas $x, y, z$, diremos que $x$ es un *prefijo* de $xy$, e $y$ es un *sufijo* de $xy$.
 ##### Ejemplo 3:
 Para $w = abaab$, calcular los prefijos, los sufijos y las subcadenas.
 Prefijos = $\{ a, ab, aba, abaa, abaab, \epsilon\}$
-Sufijos = $\{\epsilon, b, ab, aab, baab\}$
+Sufijos = $\{\epsilon, b, ab, aab, baab, abaab\}$
 Subcadenas = $\{a, ab, baa, aab, baab, \cdots\}$
 # Lenguajes
 Un lenguaje sobre un alfabeto $\Sigma$ es cualquier subconjunto de $\Sigma^*$, se puede expresar tanto señalando sus elementos uno a uno o definiendo una regla que todos sus elementos deben cumplir.
