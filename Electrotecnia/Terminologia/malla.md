@@ -1,0 +1,2 @@
+Una malla es una trayectoria que empieza desde un nodo A y termina en el mismo nodo A.
+La unica restricción que tienen es que no tiene que existir ninguna otra malla dentro de esta, es decir, tiene que ser el circuito mas pequeño posible.

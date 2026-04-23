@@ -13,7 +13,7 @@ Links:
 
 ### Definición:
 
-Una **lista enlazada** es una estructura de datos lineal compuesta por **[[nodo|nodos]]** donde cada nodo almacena un dato y un puntero al siguiente nodo de la lista.
+Una **lista enlazada** es una estructura de datos lineal compuesta por **[[Estructuras de Datos/Unidad - Fundamentos de C++/nodo|nodos]]** donde cada nodo almacena un dato y un puntero al siguiente nodo de la lista.
 A diferencia de un arreglo, los nodos **no** están juntos en memoria, cada uno puede estar en cualquier dirección, enlazándose mediante [[punteros-y-memoria|punteros]].
 
 ### Utilidad:

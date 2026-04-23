@@ -8,15 +8,15 @@ Links:
   - Fundamentos de la Computacion
 ---
 # Definición:
+Una función es una relación matemática entre dos conjuntos.
 $$
-f : x \rightarrow y
+f : X \rightarrow Y
 $$
 $$
-\forall x \in X, y\in Y \mid \exists f(x) = y
+\forall x \in X, y\in Y\ \qquad \exists f(x) = y
 $$
-
-Para todo $x \in X$, se le llamara Pre-Imagen.
-Para todo $y \in Y$, se le llamara Imagen o Rango.
+Para todo $x \in X$, se le llamará Pre-Imagen.
+Para todo $y \in Y$, se le llamará Imagen o Rango.
 
 # Funciones Características:
 
@@ -74,12 +74,12 @@ $$
 > [!NOTE]
 > Para demostrarlo utilizando la derivada, una función será inyectiva si y solo si su derivada es siempre positiva o siempre negativa en ese intervalo.
 ## Sobreyectiva:   
-Las funciones sobreyectivas son las funciones que para toda imagen, exista, como mínimo, una pre-imagen.   
+Las funciones sobreyectivas son las funciones que para toda imagen, exista, como mínimo, una pre-imagen.
 ### Definición:   
 Para todo $y$ perteneciente al conjunto $Y$, existe un $x$ de $X$, que cumple que una función evaluada en $x$, es igual a $y$.   
 
 $$
-\forall\ y \in Y \quad \exists\ x \in X : f(x) = y
+\forall\ y \in Y, \quad \exists\ x \in X : f(x) = y
 $$
 
 >[!NOTE]

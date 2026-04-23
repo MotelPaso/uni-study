@@ -1,4 +1,5 @@
 ### Paulo Araya - Rut: 21.918.080-2
+### Roger Villarroel - Rut: 21.994.625-2
 
 ##### Problema 1:
 Transforme los siguientes valores en sistema decimal a base binaria, octal y hexadecimal utilizando solo el método de las divisiones sucesivas. Para la parte fraccionaria, si corresponde, obtenga mínimo 6 cifras aproximando las multiplicaciones a 4 cifras.
