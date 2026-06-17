@@ -1,4 +1,4 @@
-﻿---
+---
 Object type:
     - Apuntes
 Backlinks:
@@ -9,6 +9,7 @@ Links:
     - Fundamentos de la Computacion
 ---
 # PP1   
+### Temario:
 
 
 
