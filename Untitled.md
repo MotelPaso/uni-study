@@ -1,0 +1,3 @@
+Busqueda
+Espacios de Busqueda
+heuristicas
