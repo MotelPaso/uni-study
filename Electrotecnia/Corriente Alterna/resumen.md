@@ -6,8 +6,12 @@ $$
 
 \end{aligned}
 $$
-
-
+## Transformacion a Fasor
+$$
+\begin{aligned}
+V = 30 \cos(\omega t + 25) = \frac{30}{0.707} \angle 25
+\end{aligned}
+$$
 
 ## Capacitores en CA
 ### Potencia en un Capacitor
@@ -23,7 +27,7 @@ Como la reactancia de un capacitor es igual a la resistencia de un resistor, pod
 $$
 I = \frac V {X_C}
 $$
-> Ver ejemplos 12 - 18 y 12 - 19 (pag. 500)
+> Ver ejemplos 12 - 18 y 12 - 19 (pág. 500)
 
 ## Inductancia
 Es "similar" a la resistencia de un resistor, pero para bobinas. 
@@ -35,7 +39,7 @@ $$
 \text{Paralelo: }& L_T = \frac{1}{\Large{\frac{1}{L_1}} + \frac{1}{L_2} + \cdots+ \frac{1}{L_n}}
 \end{aligned}
 $$
-> Ver ejemplo 13-4 y 13-5 (pag. 534)
+> Ver ejemplo 13-4 y 13-5 (pág. 534)
 
 La corriente y el voltaje aplicado en una bobina puede ser calculado usando Ley de Ohm, igual que a una resistencia.
 ### Potencia en una Reactancia
@@ -51,21 +55,28 @@ X_L = 2\pi f L
 $$
 
 >[!IMPORTANT]
-> La reactancia inductiva y la reactancia capacitiva actuan como numeros [[Electrotecnia/Corriente Alterna/Números Complejos.md|imaginarios]], pero pueden ser sumados con la resistencia.
+> La reactancia inductiva y la reactancia capacitiva actuan como numeros [[numeros complejos|imaginarios]], pero pueden ser sumados con la resistencia.
 ## Impedancia:
+Impedancias en serie se suman, en paralelo disminuyen.
 $$
 \begin{aligned}
 Z &= R -jX_c\\
-V &= IZ
+V &= IZ\\
+Z &= \sqrt{R^2 + X^2} \angle \tan^{-1} \left(\frac{X}{R}\right)
 \end{aligned}
 $$
 > Ver ejemplo 15-11 (pag. 619)
 
 ## Factor de Potencia:
+El factor de potencia se calcula usando el ángulo de la impedancia.
 $$
 PF = \cos\theta
 $$
-circuito RLC 728!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+> Ver ejemplo 15-23 (pag. 643)
+
+>[!IMPORTANT]
+>Si $X_L$ es mayor que $X_C$, el circuito sera inductivo.
+>Si no, será capacitivo.
 # Ejemplos
 ##### Ejemplo 11 - 14
 Nos piden el voltaje entre los extremos de cada resistor y la corriente rms.

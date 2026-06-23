@@ -32,7 +32,7 @@ Lunes 11:40 - 13:00 | 18:00 - 19:30
 Martes 18:00 - 19:30   
 ### Unidades:
 [[punteros-y-memoria|Punteros Y Memoria]]
-[[Estructuras de Datos/Unidad - Listas Enlazadas/listas-enlazadas.md|Listas Enlazadas]]
-[[Estructuras de Datos/Unidad - Pilas y Colas/pilas-y-colas.md|Pilas Y Colas]]
+[[listas-enlazadas|Listas Enlazadas]]
+[[pilas-y-colas|Pilas Y Colas]]
 ### Pruebas:
 [[pp1_k|PP1]]

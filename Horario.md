@@ -1,12 +1,12 @@
 |     |                 Lunes                 |                     Martes                     |                   Miercoles                    |           Jueves           |          Viernes           |
 | :-- | :-----------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :------------------------: | :------------------------: |
 | A   |                                       |                                                |                                                |                            |                            |
-| B   |                                       |                                                |                                                | [[Electrotecnia\|Electro]] |                            |
-| C   | [[Estructuras de Datos\|Estructuras]] | [[Fundamentos de la Computacion\|Fundamentos]] |                                                | [[Electrotecnia\|Electro]] | [[Electrotecnia\|Electro]] |
+| B   |                                       |                                                |                                                | [[electrotecnia\|Electro]] |                            |
+| C   | [[estructuras de datos\|Estructuras]] | [[fundamentos de la computacion\|Fundamentos]] |                                                | [[electrotecnia\|Electro]] | [[electrotecnia\|Electro]] |
 | C2  |                                       |                                                |                                                |                            |                            |
-| D   |                                       |                                                | [[Fundamentos de la Computacion\|Fundamentos]] |           Python           |                            |
+| D   |                                       |                                                | [[fundamentos de la computacion\|Fundamentos]] |           Python           |                            |
 | E   |                                       |                                                |                                                |                            |                            |
-| F   | [[Estructuras de Datos\|Estructuras]] |     [[Estructuras de Datos\|Estructruras]]     |                                                |                            |                            |
+| F   | [[estructuras de datos\|Estructuras]] |     [[estructuras de datos\|Estructruras]]     |                                                |                            |                            |
 bandit1: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 bandit2: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 bandit3: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
