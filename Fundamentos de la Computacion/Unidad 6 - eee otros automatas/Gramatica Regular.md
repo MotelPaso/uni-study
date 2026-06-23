@@ -1,3 +1,4 @@
+# Gramatica
 La gramática regular rige los autómatas de estados finitos y acepta un lenguaje regular.
 Un lenguaje regular es el lenguaje normal que hemos estado viendo a lo largo del curso.
 #### Definición:

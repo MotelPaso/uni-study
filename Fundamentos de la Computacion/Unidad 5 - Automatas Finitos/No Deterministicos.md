@@ -13,4 +13,7 @@ $\delta$ = Función de transición, que se define como: $\delta : \Sigma \times 
 $q_0$ = Estado inicial.
 $F$ = Conjunto de estados finales, donde $F\subseteq Q$, son los únicos estados donde el *input* se considera valido.
 
-Siempre se puede pasar de un AFD a un AFND, pero no siempre a la inversa.o
+>[!WARNING]
+>Siempre se puede pasar de un AFND a un AFD, pero no siempre a la inversa.
+## Conversion de AFND a AFD
+Se tiene el siguiente AFND que trabaja sobre este 

@@ -1,5 +1,5 @@
-# Autómata Finito Deterministico:
-Un AFD es una maquina abstracta con estados finitos, que lee entradas y cambia de estado siguiendo reglas deterministicas. 
+# Autómata Finito Determinístico:
+Un AFD es una maquina abstracta con estados finitos, que lee entradas y cambia de estado siguiendo reglas determinísticas. 
 Se pueden utilizar para revisar si una cadena determinada de un alfabeto es parte o no de un lenguaje. Cabe resaltar que los automatas del curso no tienen output.
 #### Definición formal:
 Se define como un quintuple de la siguiente forma:
@@ -45,4 +45,3 @@ $$
 \end{aligned}
 $$
 3. Diseñe un AFD que acepte cadenas del alfabeto $\Sigma = \{ 0,1 \}$ donde la cantidad de 1 sea divisible por 3.
-4. 

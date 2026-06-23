@@ -18,15 +18,18 @@ Es importante señalar que cada estado en string vacío va a si mismo, exceptuan
 1. Revisamos estado por estado, aplicando a que estado podemos llegar utilizando solo epsilon.
 2. Luego, desde los estados resultantes, revisamos los elementos del alfabeto para ver a que estado llegamos desde ellos.
 3. Finalmente, aplicamos solo epsilon a los resultantes para ver los estados futuros.
--------0------- 1
-A    {A,B,C} {B,C}
-B   {C} ------{B,C}
-C   {C} ------{C}
+
 >[!INFO]
 >Recordar que los estados finales van a ser todos los estados que incluyan el estado final inicial.
 
 #### Ejemplo:
 Transformar el siguiente autómata epsilon a NFA:
+
+|       | 0       | 1     |
+| --- | ------- | ----- |
+| A   | {A,B,C} | {B,C} |
+| B   | {C}     | {B,C} |
+| C   | {C}     | {C}   |
 
 |     | $\epsilon*$ | 0              | 1           | $\epsilon*$ |
 | --- | ----------- | -------------- | ----------- | ----------- |
@@ -38,5 +41,5 @@ Transformar el siguiente autómata epsilon a NFA:
 | B   | B,C         |                | B,D         | B,C,D       |
 | C   | C           |                | D           | D           |
 | D   | D           |                | $\emptyset$ | D           |
-La ultima fila son las conexiones entre los estados, donde los estados finales del nuevo autómata serán todos los estados que tengan un camino hacia el antiguo estado final.
+La ultima columna son las conexiones entre los estados, donde los estados finales del nuevo autómata serán todos los estados que tengan un camino hacia el antiguo estado final.
 > Si se llega a un estado vacío, se mantiene el estado anterior al vacío.
