@@ -27,10 +27,9 @@ $$
 $$
 Donde $\text{I}$ es el carácter recibido del input, $\text{top}$ es el elemento superior de la pila, y $\text{accion}$ es la acción que se tomará con respecto a la pila.
 ### Reglas:
-1. $\text{accion} = \epsilon$ 
+1. $i,\text{top} \rightarrow \epsilon$ 
 	  Se saca (*elimina*) el elemento superior de la pila.
-2. $\text{accion} = \text{top}$
-3. $\text{accion} = a$
-	  $a$ se inserta a la pila.
+2. $i, \text{top} \rightarrow X\ top$
+	  Se inserta X a la pila.
 #### Aplicación:
-Para crear un automata pushdown, se tiene que agregar un valor auxiliar $\text{Z}_0$ al inicial el ejercicio, esto es para comprobar si la pila esta vacía o no. Se puede escribir un estado especifico para esto o omitirse.
+Para crear un automata pushdown, se tiene que agregar un valor auxiliar $\text{Z}_0$ al inicial el ejercicio, esto es para comprobar si la pila esta vacía o no. Se puede escribir un estado especifico para esto o omitirse y especificar que se omitio.

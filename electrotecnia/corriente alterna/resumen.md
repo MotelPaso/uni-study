@@ -15,7 +15,7 @@ $$
 
 ## Capacitores en CA
 ### Potencia en un Capacitor
-El capacitor solo guarda potencia *reactiva*. Se utiliza la misma ecuación que para la potencia.
+El capacitor solo guarda potencia *reactiva*. No tiene potencia activa. Se utiliza la misma ecuación que para la potencia.
 $$
 P = \frac{V}{X_c} = V \cdot I = I^2 \cdot X_C
 $$
@@ -43,7 +43,7 @@ $$
 
 La corriente y el voltaje aplicado en una bobina puede ser calculado usando Ley de Ohm, igual que a una resistencia.
 ### Potencia en una Reactancia
-Tiene potencia real, pero es muy baja ($\simeq 0$), así que en la mayoría de los casos es ignorada.
+Tiene potencia activa, pero es muy baja ($\simeq 0$), así que en la mayoría de los casos es ignorada.
 La potencia reactiva se puede calcular usando las formulas de siempre.
 $$
 P = \frac{V}{X_L} = V \cdot I = I^2 \cdot X_L
@@ -55,12 +55,13 @@ X_L = 2\pi f L
 $$
 
 >[!IMPORTANT]
-> La reactancia inductiva y la reactancia capacitiva actuan como numeros [[numeros complejos|imaginarios]], pero pueden ser sumados con la resistencia.
+> La reactancia inductiva y la reactancia capacitiva actuan como numeros [[numeros complejos|imaginarios]], pero pueden ser sumados con la resistencia, convirtiéndose en impedancia.
 ## Impedancia:
 Impedancias en serie se suman, en paralelo disminuyen.
 $$
 \begin{aligned}
 Z &= R -jX_c\\
+Z &= R + j(X_L - X_c) \rightarrow Z = R + jX\\
 V &= IZ\\
 Z &= \sqrt{R^2 + X^2} \angle \tan^{-1} \left(\frac{X}{R}\right)
 \end{aligned}
@@ -73,6 +74,8 @@ $$
 PF = \cos\theta
 $$
 > Ver ejemplo 15-23 (pag. 643)
+
+El factor de potencia ideal es entre 0.90 y 0.98.
 
 >[!IMPORTANT]
 >Si $X_L$ es mayor que $X_C$, el circuito sera inductivo.
