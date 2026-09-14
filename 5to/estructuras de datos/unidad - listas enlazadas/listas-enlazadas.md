@@ -8,7 +8,6 @@ Links:
   - Estructuras de Datos
   - motelpaso
 ---
-
 # Listas Enlazadas
 
 ### Definición:

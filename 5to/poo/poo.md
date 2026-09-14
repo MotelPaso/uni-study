@@ -1,0 +1,11 @@
+## Ayudantías de POO - invierno 2026
+- [[ayudantia-1]]
+- [[ayudantia-2]]
+- [[ayudantia-3]]
+- [[ayudantia-4]]
+- [[ayudantia-5]]
+- [[ayudantia-6]]
+- [[ayudantia-7]]
+- [[requerimientos]]
+- [[ayudantia-8]]
+- [[ej-patrones]]

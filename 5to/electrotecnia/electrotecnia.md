@@ -22,7 +22,7 @@ Jueves 09:55 - 13:10
 ##### Cátedra:
 Viernes 11:40 - 13:10   
 ### Unidades:   
-Unidad 1: Nombre de la unidad   
+
    
 
 

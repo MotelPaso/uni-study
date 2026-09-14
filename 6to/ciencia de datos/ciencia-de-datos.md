@@ -11,3 +11,10 @@
 
  --- 
    
+
+### Clases
+- [[clase-2-conseguir-datos|Clase 2: Conseguir Datos]]
+- [[clase-3-ver-datos|Clase 3: Ver Datos]]
+- [[clase-4-limpieza-de-datos|Clase 4: Limpieza de datos]]
+- [[temario|Temario]]
+- [[foro-data-mining|Foro Data Mining]]

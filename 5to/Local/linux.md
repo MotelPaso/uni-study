@@ -1,1 +1,0 @@
-bus-run-session driftwm

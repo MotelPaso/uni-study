@@ -4,5 +4,6 @@
   "showLineNumber": true,
   "showInlineTitle": false,
   "strictLineBreaks": false,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "promptDelete": false
 }

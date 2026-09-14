@@ -11,3 +11,8 @@
 
  --- 
    
+
+### Clases
+- [[clase-1-inicial|Clase 1: Inicial]]
+- [[clase-2-scrum|Clase 2: Scrum]]
+- [[clase-3-kanban|Clase 3: Kanban]]

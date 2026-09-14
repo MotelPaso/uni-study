@@ -15,3 +15,5 @@ Omniscient
    
 You could ask the arq teacher, but you need to learn enough to explain the content   
    
+
+### Clases
