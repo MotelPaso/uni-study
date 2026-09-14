@@ -1,6 +1,6 @@
 # Clase 3: CPU   
 # Arquitectura de una CPU   
-Principalmente, un computador almacena datos/programar, ejecuta instrucciones predefinidas, y devuelve resultados calculados, a una velocidad asociada a su "clock" principal, medido en hercios *hz*, ahora llegando a los *Ghz*.   
+Principalmente, un computador almacena datos/programar, ejecuta instrucciones predefinidas, y devuelve resultados calculados, a una velocidad asociada a su "clock" principal, medido en hercios *hz*, ahora llegando a los *Ghz*.
 ## Modelo de Von Neumann:   
 Divide las tareas del computador en 3 partes, memoria, CPU y Input/Output, se comunican mediante buses (canales), que son sistemas de comunicaciones dentro del computador, siendo basados en tanto en hardware (cables) como en software (drivers, protocolos como ASCII).   
 Los datos e instrucciones del sistema residen en memoria y su alfabeto es el binario.   
@@ -19,7 +19,8 @@ Los problemas son los mismos que en los multiprocesadores, pero la diferencia es
 Es el cerebro de la computadora, es responsable de ejecutar operaciones, controlar el flujo del programa y los circuitos internos del sistema.   
 ## Responsabilidades:   
 ### 1. Ejecucion de Algoritmos:   
-Los algoritmos son escritos secuencialmente en memoria, tal que asi:   
+Los algoritmos son escritos secuencialmente en memoria, tal que asi: 
+
 | 1101110111   <br> | LOAD(07)   <br> |      Carga a memoria el dato en la posicion 7.   <br> |
 |:------------------|:----------------|:------------------------------------------------------|
 | 1100011001   <br> |  ADD(09)   <br> |           Le agrega el dato en la posicion 9.    <br> |

@@ -1,8 +1,8 @@
 ---
 Tag: Course
 Curso: base-de-datos.md
-Done: false
-Status: To Do
+Done: true
+Status: Done
 ---
 
 # Taller 1   

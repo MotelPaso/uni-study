@@ -1,12 +1,12 @@
 ---
 Object type:
-    - Apuntes
+  - Apuntes
 Backlinks:
-    - fundamentos-de-logica
-    - Apuntes
-Creation date: "2026-02-07T15:51:05Z"
+  - fundamentos-de-logica
+  - Apuntes
+Creation date: 2026-02-07T15:51:05Z
 Links:
-    - fundamentos-de-logica
+  - fundamentos-de-logica
 ---
 # Lógica Proposicional   
 Un enunciado es una oración que describe algún evento o cualidad de algo. Puede ser verdadera o falsa.

@@ -1,16 +1,16 @@
 ---
 Object type:
-    - Curso
+  - Curso
 Universidad:
-    - pau
+  - pau
 Semestre:
-    - 5to-semestre
+  - 5to-semestre
 Backlinks:
-    - horario
-Creation date: "2026-01-23T22:30:50Z"
+  - horario
+Creation date: 2026-01-23T22:30:50Z
 Links:
-    - pau
-    - 5to-semestre
+  - pau
+  - 5to-semestre
 ---
 # Electrotecnia   
 ### Datos del Profesor:   

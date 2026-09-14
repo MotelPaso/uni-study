@@ -17,7 +17,3 @@ IR <- MDR;
 PC <- PC + 1;
 ```
 Esto es un ciclo al usar un programa.   
-
-$$
-\sqrt{\frac{1}{T_1 - T_2} \int^{T_2}_{T_1}[f(t)^2dt]}
-$$

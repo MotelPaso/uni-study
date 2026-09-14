@@ -1,13 +1,13 @@
 ---
 Object type:
-    - Apuntes
+  - Apuntes
 Backlinks:
-    - demostraciones
-    - teoria-de-conjuntos
-    - Apuntes
-Creation date: "2026-01-25T03:36:46Z"
+  - demostraciones
+  - teoria-de-conjuntos
+  - Apuntes
+Creation date: 2026-01-25T03:36:46Z
 Links:
-    - teoria-de-conjuntos
+  - teoria-de-conjuntos
 ---
 #### Complemento: $\overline A = \{ a \in\mathbb{U}\mid a \notin A\}$   
 El complemento es todo elemento que exista en el universo $\mathbb{U}$, pero que no esté en $A.$

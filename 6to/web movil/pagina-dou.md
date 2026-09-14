@@ -1,7 +1,8 @@
 ---
 Tag: Course
 Curso: web-movil.md
-Status: In Progress
+Status: Done
+Done: true
 ---
 
 # pagina dou   

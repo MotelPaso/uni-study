@@ -1,0 +1,31 @@
+views:
+  - type: cumban
+    name: Main
+    filters:
+      and:
+        - "!Status.isEmpty()"
+    groupBy:
+      property: Status
+      direction: ASC
+    order:
+      - file.name
+      - Done
+      - Curso
+      - Status
+    cardSize: 390
+    imageFit: contain
+    kanbanViewId: 7620fcea-95b0-45a1-9655-826ae70f970d
+    localCardOrder: '{"Done":["6to/ingenieria de software/actividad-de-proceso.md","6to/programacion cientifica/do-the-second-python-task.md","6to/web movil/pagina-dou.md","6to/base de datos/resumen-cap-1-y-2.md","6to/base de datos/taller-1.md"],"To Do":["6to/ciencia de datos/foro-data-mining.md"]}'
+    pinnedColumns: ""
+    columnOrder: To Do,In Progress,Done
+  - type: table
+    name: Table
+    filters:
+      and:
+        - "!Status.isEmpty()"
+    order:
+      - file.name
+      - Status
+    sort:
+      - property: file.name
+        direction: ASC

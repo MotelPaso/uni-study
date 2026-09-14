@@ -1,12 +1,12 @@
 ---
 Object type:
-    - Apuntes
+  - Apuntes
 Backlinks:
-    - teoria-de-conjuntos
-    - Apuntes
-Creation date: "2026-02-10T21:45:48Z"
+  - teoria-de-conjuntos
+  - Apuntes
+Creation date: 2026-02-10T21:45:48Z
 Links:
-    - Fundamentos de la Computacion
+  - Fundamentos de la Computacion
 ---
 Es una manera de describir cuales elementos están conectados entre dos conjuntos:
 ## Definición:

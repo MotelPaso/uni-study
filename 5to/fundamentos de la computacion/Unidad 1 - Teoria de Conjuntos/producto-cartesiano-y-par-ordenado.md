@@ -1,12 +1,12 @@
 ---
 Object type:
-    - Apuntes
+  - Apuntes
 Backlinks:
-    - teoria-de-conjuntos
-    - Apuntes
-Creation date: "2026-01-28T20:34:36Z"
+  - teoria-de-conjuntos
+  - Apuntes
+Creation date: 2026-01-28T20:34:36Z
 Links:
-    - teoria-de-conjuntos
+  - teoria-de-conjuntos
 ---
 # Producto Cartesiano y Par Ordenado   
 ## Par ordenado:   

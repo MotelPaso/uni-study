@@ -1,21 +1,21 @@
 ---
 Object type:
-    - Unidad
+  - Unidad
 Backlinks:
-    - demostraciones
-    - Fundamentos de la Computacion
-    - producto-cartesiano-y-par-ordenado
-    - operaciones-de-un-conjunto
-    - definicion-de-conjuntos
-Creation date: "2026-01-24T17:25:54Z"
+  - demostraciones
+  - Fundamentos de la Computacion
+  - producto-cartesiano-y-par-ordenado
+  - operaciones-de-un-conjunto
+  - definicion-de-conjuntos
+Creation date: 2026-01-24T17:25:54Z
 Links:
-    - definicion-de-conjuntos
-    - producto-cartesiano-y-par-ordenado
-    - operaciones-de-un-conjunto
-    - demostraciones
-    - relaciones
-    - Fundamentos de la Computacion
-    - motelpaso
+  - definicion-de-conjuntos
+  - producto-cartesiano-y-par-ordenado
+  - operaciones-de-un-conjunto
+  - demostraciones
+  - relaciones
+  - Fundamentos de la Computacion
+  - motelpaso
 ---
 # <div align="center">Teoria de Conjuntos</div>   
 

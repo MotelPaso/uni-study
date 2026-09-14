@@ -1,13 +1,13 @@
 ---
 Object type:
-    - Apuntes
+  - Apuntes
 Backlinks:
-    - teoria-de-conjuntos
-    - Apuntes
-Creation date: "2026-01-25T22:35:02Z"
+  - teoria-de-conjuntos
+  - Apuntes
+Creation date: 2026-01-25T22:35:02Z
 Links:
-    - operaciones-de-un-conjunto
-    - teoria-de-conjuntos
+  - operaciones-de-un-conjunto
+  - teoria-de-conjuntos
 ---
 # Demostraciones   
 Para realizar demostraciones, se debe seguir el lenguaje matemático de las demostraciones y la teoría de conjuntos.   

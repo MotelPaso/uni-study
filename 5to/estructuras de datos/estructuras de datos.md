@@ -1,25 +1,25 @@
 ---
 Object type:
-    - Curso
+  - Curso
 Universidad:
-    - pau
+  - pau
 Semestre:
-    - 5to-semestre
+  - 5to-semestre
 Backlinks:
-    - pp1_k
-    - punteros-y-memoria
-    - pilas-y-colas
-    - Taller 1
-    - horario
-    - listas-enlazadas
-Creation date: "2026-01-23T21:42:30Z"
+  - pp1_k
+  - punteros-y-memoria
+  - pilas-y-colas
+  - Taller 1
+  - horario
+  - listas-enlazadas
+Creation date: 2026-01-23T21:42:30Z
 Links:
-    - punteros-y-memoria
-    - listas-enlazadas
-    - pilas-y-colas
-    - pp1_k
-    - pau
-    - 5to-semestre
+  - punteros-y-memoria
+  - listas-enlazadas
+  - pilas-y-colas
+  - pp1_k
+  - pau
+  - 5to-semestre
 ---
 # Estructuras de Datos
 

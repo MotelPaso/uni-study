@@ -1,12 +1,12 @@
 ---
 Object type:
-    - Unidad
+  - Unidad
 Backlinks:
-    - Estructuras de Datos
-Creation date: "2026-01-23T21:42:55Z"
+  - Estructuras de Datos
+Creation date: 2026-01-23T21:42:55Z
 Links:
-    - motelpaso
-    - Estructuras de Datos
+  - motelpaso
+  - Estructuras de Datos
 ---
 # Punteros y Memoria   
 Un **puntero** es un nuevo datatype exclusivo\* a C y C++ que guardan la dirección de memoria de otra variable.   

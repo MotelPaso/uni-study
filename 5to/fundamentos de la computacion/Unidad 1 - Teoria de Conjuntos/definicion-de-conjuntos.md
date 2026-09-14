@@ -1,12 +1,12 @@
 ---
 Object type:
-    - Apuntes
+  - Apuntes
 Backlinks:
-    - teoria-de-conjuntos
-    - Apuntes
-Creation date: "2026-01-25T03:35:08Z"
+  - teoria-de-conjuntos
+  - Apuntes
+Creation date: 2026-01-25T03:35:08Z
 Links:
-    - teoria-de-conjuntos
+  - teoria-de-conjuntos
 ---
 # Definición de Conjuntos   
 Conjuntos, subconjuntos, cardinalidad y conjuntos potencia.   
