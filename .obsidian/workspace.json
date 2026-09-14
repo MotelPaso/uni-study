@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "21a6bda2f1d7c451",
+    "type": "split",
+    "children": [
+      {
+        "id": "77459937e66f5102",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65ceda775ee4618b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6to/arquitectura/arquitectura-de-computadores.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "arquitectura-de-computadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8fc60773f15c6499",
+    "type": "split",
+    "children": [
+      {
+        "id": "874c466fd5414fc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93a1861f6d79a99d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "82eff325d658af48",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "68c87f10c0851219",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "96a1d7eca37f4def",
+    "type": "split",
+    "children": [
+      {
+        "id": "20904c1291bfbeb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c0ce5799d459e58",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5to/diseño de sistemas/bits.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "696c1f0d68ba9968",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5to/diseño de sistemas/bits.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a1cb6cf2ac7568b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d9676d30620d1d66",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2aa40fd5b897c659",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6to/arquitectura/arquitectura-de-computadores.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "8205f7dce252fb89",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 686.8984375
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "8205f7dce252fb89",
+  "lastOpenFiles": [
+    "Tareas.base",
+    "6to/horario.md",
+    "6to/ayudantia fundamentos/clase-1-demostraciones-lenguajes.md",
+    "6to/ayudantia fundamentos/ayudantia-fundamentos.md",
+    "6to/ingenieria de software/clase-1-inicial.md",
+    "6to/ingenieria de software/actividad-de-proceso.md",
+    "6to/ciencia de datos/ciencia-de-datos.md",
+    "6to/arquitectura/arquitectura-de-computadores.md",
+    "6to/arquitectura/clase-1-mundo-digital.md",
+    "5to/fundamentos de la computacion/tests/pp1.md",
+    "ayfun.md",
+    "6to/ciencia de datos/foro-data-mining.md",
+    "Untitled.md",
+    "6to/ciencia de datos/unidad-1.md",
+    "6to/ciencia de datos/temario.md",
+    "6to/ciencia de datos/clase-3-ver-datos.md",
+    "6to/programacion cientifica/programacion-cientifica.md",
+    "6to/web movil/web-movil.md",
+    "6to/personal/arquitectura-de-computadores-i-dont-feel-very-.md",
+    "6to/base de datos/ay-2.md",
+    "6to/ayudantia programacion/ayudantia-programacion.md",
+    "6to/ayudantia fundamentos/ayudantias/pauta-ayudantia-1.md",
+    "6to/ayudantia fundamentos/ayudantias/ayudantia-1.md",
+    "6to/ayudantia fundamentos/ayudantias/apunte-ay-1.md",
+    "6to/ayudantia fundamentos/ayudantias",
+    "6to/arquitectura/clase-5-ciclos.md",
+    "6to/arquitectura/clase-7-alu.md",
+    "6to/personal",
+    "6to/paper",
+    "6to/proyecto integrador",
+    "6to/ayudantia programacion",
+    "6to/ayudantia fundamentos",
+    "6to/programacion cientifica",
+    "6to/web movil",
+    "6to/ingenieria de software"
+  ]
+}

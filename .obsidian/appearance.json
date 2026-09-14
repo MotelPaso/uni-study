@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Omarchy",
+  "baseFontSize": 19,
+  "accentColor": "#b6ece1",
+  "baseFontSizeAction": true,
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "readable-line-width"
+  ]
+}

@@ -3,11 +3,8 @@
 *.mdc
 *.mdb
 
-.obsidian/*
-.space
 .trash
 .makemd
 
-!.obsidian/themes
 
 /Local/
