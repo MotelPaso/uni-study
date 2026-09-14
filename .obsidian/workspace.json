@@ -11,14 +11,10 @@
             "id": "9232f6b9d2934862",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "copilot/skills/obsidian-bases/SKILL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "New tab"
             }
           }
         ]
@@ -211,8 +207,11 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "93a1861f6d79a99d",
+  "active": "8205f7dce252fb89",
   "lastOpenFiles": [
+    "5to/pasted image 20260407111003.png",
+    "5to/pasted image 20260407110130.png",
+    "copilot/skills/obsidian-bases/SKILL.md",
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "6to/horario.md",
@@ -225,7 +224,6 @@
     "copilot/skills/json-canvas/references/EXAMPLES.md",
     "copilot/skills/json-canvas/references",
     "copilot/skills/json-canvas",
-    "copilot/skills/obsidian-bases/SKILL.md",
     "copilot/skills/obsidian-bases/LICENSE",
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
@@ -247,7 +245,6 @@
     "5to/poo/requerimientos.md",
     "5to/poo/ayudantia-7.md",
     "5to/poo/ayudantia-6.md",
-    "5to/poo/ayudantia-5.md",
-    "5to/poo/ayudantia-4.md"
+    "5to/poo/ayudantia-5.md"
   ]
 }
