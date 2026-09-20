@@ -1,6 +1,6 @@
 ## Ayudantías de POO - invierno 2026
 - [[ayudantia-1]]
-- [[ayudantia-2]]
+- [[5to/poo/ayudantia-2]]
 - [[ayudantia-3]]
 - [[ayudantia-4]]
 - [[ayudantia-5]]

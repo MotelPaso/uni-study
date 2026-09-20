@@ -1,1 +1,0 @@
-transformacion de expresiones regulares a automatas y viceversa

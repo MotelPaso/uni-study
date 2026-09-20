@@ -12,7 +12,9 @@ Links:
 ---
 # Fundamentos de Logica   
 [[ logica-proposicional | Logica Proposicional ]]    
-
+[[leyes de la logica]]
+[[operadores-logicos]]
+[[5to/fundamentos de la computacion/unidad 3 - logica/ejercicios|ejercicios]]
 
 
 

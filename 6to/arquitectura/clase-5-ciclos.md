@@ -1,7 +1,8 @@
 # Clase 5: Ciclos   
-## Fetch:   
+## Fetch:
+
 Su proposito es identificar la siguiente instruccion a ejecutar.   
-```
+```python
 BUS = PC # Enviar el PC a el bus de datos
 MAR <- BUS # Saca del bus la direccion del PC y la guarda en el memory address register
 MDR <- M[MAR] # Eligiendo esa memoria guardada, se lee en el memory data register
@@ -10,7 +11,7 @@ IR <- BUS # Desde el bus, ingresar en el intruction register
 PC <- PC + 1 # Avanzar uno en el program counter
 ```
 Se puede obviar el uso del bus, haciendo esto:   
-```
+```python
 MAR <- PC;
 MDR <- M[MAR];
 IR <- MDR;

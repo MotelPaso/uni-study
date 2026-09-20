@@ -317,8 +317,8 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": null,
-  "lastShownStartupVersion": null,
+  "lastDismissedVersion": "4.0.9",
+  "lastShownStartupVersion": "4.0.9",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -380,8 +380,8 @@
     "deviceProfiles": {
       "35a77810-cf5c-4ccd-985b-da3bab0cb802": {
         "opencode": {
-          "binaryPath": "/home/motelpaso/.local/bin/opencode",
-          "binaryVersion": "1.18.30",
+          "binaryPath": "/home/motelpaso/.local/share/mise/shims/opencode",
+          "binaryVersion": "1.18.31",
           "binarySource": "custom",
           "probeSessionId": "ses_f61eed975ffeLLG7tgl7cRjpC9"
         }
@@ -1478,6 +1478,15 @@
       },
       "configuredModelId": "92947836-468a-4a67-9776-498a8cc26f16",
       "configuredAt": 1789358319275
+    },
+    {
+      "providerId": "1a7606a3-2d35-46c7-be13-c5059d8c90be",
+      "info": {
+        "id": "opencode/jev-1.13-free",
+        "displayName": "OpenCode Zen/Jev 1.13 Free"
+      },
+      "configuredModelId": "ff83379b-f75a-4389-9403-9c6c5ed4ba40",
+      "configuredAt": 1789871877356
     }
   ],
   "backends": {

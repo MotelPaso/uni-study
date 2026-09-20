@@ -30,11 +30,10 @@ Correo: jose.veas@ce.ucn.cl
 Lunes 10:00 - 13:00   
 Martes 12:00 - 16:00 
 ### Unidades:   
-[[ teoria-de-conjuntos | Teoria de Conjuntos ]]    
-[[funciones| Funciones ]]    
-[[ fundamentos-de-logica | Fundamentos de Logica ]]    
-### Pruebas:   
-[[ pp1 | PP1 ]]    
+[[ teoria-de-conjuntos |Teoria de Conjuntos]]    
+[[funciones|Funciones]]    
+[[fundamentos-de-logica |Fundamentos de Logica]]    
+[[lenguajes]]
    
 
 

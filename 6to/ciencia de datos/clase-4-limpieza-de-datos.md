@@ -46,7 +46,7 @@ Que realmente no tienen orden, además podria ser que el numero de muestras per 
 Reemplaza las categorias en vectores binarios, haciendo una columna por valor, pero permite informacion redundante.   
 ### GroupBy:   
 Se pueden agrupar las variables categoricas con variables numericas por su probabilidad, frecuencia o promedio.   
-aa   
+
 ## Outliers   
 Un outlier es un valor atipico en nuestra base de datos, que sale del promedio, de lo "normal" basado en los tipos de datos que tenemos, como un billonario.   
 Hay muchos origenes de outliers, sean intencionales o errores.   
@@ -54,5 +54,4 @@ Hay muchos origenes de outliers, sean intencionales o errores.
 1. Aplicar estandarizacion, si el valor absoluto obtenido es mayor a 3, cuenta como outlier.   
 2. Aplicando el rango intercuartilico, con los limites de Q1 - 1.5IQR o Q3 + 1.5 IQR.
 En un grafico de caja y bigotes, son los datos fuera de los limites.   
-   
 ### Tratamiento:   

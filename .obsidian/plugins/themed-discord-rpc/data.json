@@ -1,0 +1,14 @@
+{
+  "showVaultName": false,
+  "showCurrentFileName": true,
+  "showFolderName": true,
+  "showConnectionTimer": false,
+  "showPopups": true,
+  "customVaultName": "",
+  "showFileExtension": false,
+  "useLoadedTime": true,
+  "connectOnStart": true,
+  "autoHideStatusBar": true,
+  "privacyMode": false,
+  "themeStyle": "catppuccin-macchiato"
+}
