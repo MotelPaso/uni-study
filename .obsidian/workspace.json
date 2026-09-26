@@ -11,14 +11,10 @@
             "id": "9232f6b9d2934862",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/obsidian-enhancing-export/textemplate/dissertation.tex",
-                "bFile": ".obsidian/plugins/obsidian-enhancing-export/textemplate/dissertation.tex",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: dissertation.tex  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5to/diseño de sistemas/bits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5to/diseño de sistemas/bits.md",
+                "file": "6to/arquitectura/taller-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -225,6 +220,14 @@
   "active": "9232f6b9d2934862",
   "lastOpenFiles": [
     "6to/horario.md",
+    "6to/arquitectura/taller-1.md",
+    "6to/arquitectura/taller-1.md",
+    "Tareas.base",
+    "6to/ingenieria de software/ingenieria-de-software.md",
+    "6to/arquitectura/arquitectura-de-computadores.md",
+    "6to/arquitectura/clase-1-mundo-digital.md",
+    "6to/arquitectura/estudio.md",
+    "6to/arquitectura/clase-7-alu.md",
     "5to/poo/poo.pdf",
     "6to/ayudantia fundamentos/ayudantias/pauta-ayudantia-2.md",
     "6to/ayudantia fundamentos/ayudantias/pauta-ayudantia-1.md",
@@ -239,18 +242,10 @@
     "copilot/copilot-conversations/agent__from_ejercicios_,_generate_a_similar_problem_set_onto_ayudantia-2@20260919_233906.md",
     "5to/poo/ayudantia-2.md",
     "5to/poo/poo.md",
-    "Untitled.md",
     "6to/ayudantia fundamentos/clase-1-demostraciones-lenguajes.md",
     "6to/ayudantia fundamentos/ayudantia-fundamentos.md",
-    "6to/arquitectura/arquitectura-de-computadores.md",
-    "6to/arquitectura/clase-7-alu.md",
     "6to/arquitectura/clase-5-ciclos.md",
     "6to/arquitectura/clase-4-organizacion-de-la-cpu.md",
-    "6to/arquitectura/clase-3-cpu.md",
-    "6to/arquitectura/clase-1-mundo-digital.md",
-    "6to/ciencia de datos/foro-data-mining.md",
-    "Tareas.base",
-    "6to/proyecto integrador/ideas.md",
     "5to/pasted image 20260407111003.png",
     "5to/pasted image 20260407110130.png",
     "copilot/copilot-conversations",
