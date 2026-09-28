@@ -9,5 +9,6 @@
   "pretty-properties",
   "copilot",
   "themed-discord-rpc",
-  "typst-book-preview"
+  "typst-book-preview",
+  "better-export-pdf"
 ]

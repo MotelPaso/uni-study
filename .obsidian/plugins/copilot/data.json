@@ -317,8 +317,13 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
+<<<<<<< HEAD
   "lastDismissedVersion": "4.0.9",
   "lastShownStartupVersion": "4.0.10",
+=======
+  "lastDismissedVersion": "4.0.11",
+  "lastShownStartupVersion": "4.0.11",
+>>>>>>> origin/master
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -367,7 +372,7 @@
     "activeBackend": "opencode",
     "backends": {
       "opencode": {
-        "defaultMode": "auto"
+        "defaultMode": "default"
       }
     },
     "debugFullFrames": true,
@@ -1437,24 +1442,6 @@
     {
       "providerId": "1a7606a3-2d35-46c7-be13-c5059d8c90be",
       "info": {
-        "id": "opencode/mimo-v2.5-free",
-        "displayName": "OpenCode Zen/MiMo V2.5 Free"
-      },
-      "configuredModelId": "cdd6250f-a75c-45cd-8528-89ece2e9dbe0",
-      "configuredAt": 1789358319274
-    },
-    {
-      "providerId": "1a7606a3-2d35-46c7-be13-c5059d8c90be",
-      "info": {
-        "id": "opencode/muse-spark-1.2-contributor-free",
-        "displayName": "OpenCode Zen/Muse Spark 1.2 Free"
-      },
-      "configuredModelId": "72c8b79a-9c8c-48f5-ae6a-04f36be4ce33",
-      "configuredAt": 1789358319274
-    },
-    {
-      "providerId": "1a7606a3-2d35-46c7-be13-c5059d8c90be",
-      "info": {
         "id": "opencode/muse-spark-1.3-contributor-free",
         "displayName": "OpenCode Zen/Muse Spark 1.3 Free"
       },
@@ -1482,11 +1469,29 @@
     {
       "providerId": "1a7606a3-2d35-46c7-be13-c5059d8c90be",
       "info": {
-        "id": "opencode/jev-1.13-free",
-        "displayName": "OpenCode Zen/Jev 1.13 Free"
+        "id": "opencode/mimo-v2.6-flash-free",
+        "displayName": "OpenCode Zen/MiMo-V2.6-Flash Free"
       },
-      "configuredModelId": "ff83379b-f75a-4389-9403-9c6c5ed4ba40",
-      "configuredAt": 1789871877356
+      "configuredModelId": "03d47137-cf00-4655-89f2-16a4e9f97b02",
+      "configuredAt": 1790447975548
+    },
+    {
+      "providerId": "1a7606a3-2d35-46c7-be13-c5059d8c90be",
+      "info": {
+        "id": "opencode/space-bunny-free",
+        "displayName": "OpenCode Zen/Space Bunny Free"
+      },
+      "configuredModelId": "c843b427-8dd4-4719-8ea7-58bdf393f527",
+      "configuredAt": 1790447975549
+    },
+    {
+      "providerId": "1a7606a3-2d35-46c7-be13-c5059d8c90be",
+      "info": {
+        "id": "opencode/longcat-2.5-preview-free",
+        "displayName": "OpenCode Zen/LongCat 2.5 Preview Free"
+      },
+      "configuredModelId": "397fd908-aae6-422a-babd-1166c3e19ab5",
+      "configuredAt": 1790452632161
     }
   ],
   "backends": {

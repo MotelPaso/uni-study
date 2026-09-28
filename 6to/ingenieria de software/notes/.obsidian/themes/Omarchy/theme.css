@@ -2,57 +2,6 @@
 
 .theme-dark, .theme-light {
   /* Core colors */
-<<<<<<< HEAD
-  --background-primary: #faf4ed;
-  --background-primary-alt: #faf4ed;
-  --background-secondary: #faf4ed;
-  --background-secondary-alt: #faf4ed;
-  --text-normal: #575279;
-
-  /* Selection colors */
-  --text-selection: #dfdad9;
-
-  /* Border color */
-  --background-modifier-border: #cecacd;
-
-  /* Semantic heading colors */
-  --text-title-h1: #b4637a;
-  --text-title-h2: #286983;
-  --text-title-h3: #ea9d34;
-  --text-title-h4: #56949f;
-  --text-title-h5: #907aa9;
-  --text-title-h6: #907aa9;
-
-  /* Links and accents */
-  --text-link: #56949f;
-  --text-accent: #56949f;
-  --text-accent-hover: #56949f;
-  --interactive-accent: #56949f;
-  --interactive-accent-hover: #56949f;
-
-  /* Muted text */
-  --text-muted: color-mix(in srgb, #575279 70%, transparent);
-  --text-faint: color-mix(in srgb, #575279 55%, transparent);
-
-  /* Code */
-  --code-normal: #d7827e;
-
-  /* Errors and success */
-  --text-error: #b4637a;
-  --text-error-hover: #b4637a;
-  --text-success: #286983;
-
-  /* Tags */
-  --tag-color: #d7827e;
-  --tag-background: #cecacd;
-
-  /* Graph */
-  --graph-line: #cecacd;
-  --graph-node: #56949f;
-  --graph-node-focused: #56949f;
-  --graph-node-tag: #d7827e;
-  --graph-node-attachment: #286983;
-=======
   --background-primary: #282828;
   --background-primary-alt: #282828;
   --background-secondary: #282828;
@@ -102,7 +51,6 @@
   --graph-node-focused: #7daea3;
   --graph-node-tag: #89b482;
   --graph-node-attachment: #a9b665;
->>>>>>> origin/master
 }
 
 /* Headers */
@@ -115,18 +63,6 @@
 
 /* Code blocks */
 .markdown-rendered code {
-<<<<<<< HEAD
-  color: #d7827e;
-}
-
-/* Syntax highlighting */
-.cm-s-obsidian span.cm-keyword { color: #b4637a; }
-.cm-s-obsidian span.cm-string { color: #286983; }
-.cm-s-obsidian span.cm-number { color: #ea9d34; }
-.cm-s-obsidian span.cm-comment { color: #cecacd; }
-.cm-s-obsidian span.cm-operator { color: #56949f; }
-.cm-s-obsidian span.cm-def { color: #56949f; }
-=======
   color: #89b482;
 }
 
@@ -137,7 +73,6 @@
 .cm-s-obsidian span.cm-comment { color: #665c54; }
 .cm-s-obsidian span.cm-operator { color: #7daea3; }
 .cm-s-obsidian span.cm-def { color: #7daea3; }
->>>>>>> origin/master
 
 /* Links */
 .markdown-rendered a {
@@ -146,11 +81,7 @@
 
 /* Blockquotes */
 .markdown-rendered blockquote {
-<<<<<<< HEAD
-  border-left-color: #56949f;
-=======
   border-left-color: #7daea3;
->>>>>>> origin/master
 }
 
 /* Active elements */
