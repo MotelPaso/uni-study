@@ -1,5 +1,8 @@
 views:
   - type: cumban
+    name: View
+    kanbanViewId: 67d57353-308f-4769-a97d-15441baccdb8
+  - type: cumban
     name: Main
     filters:
       and:

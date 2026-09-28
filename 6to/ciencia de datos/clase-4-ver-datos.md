@@ -1,4 +1,7 @@
-# Clase 3: Ver Datos   
+# Clase 4: Ver Datos   
+
+
+
 Existen dos tipos de visualizacion, exploracion y presentacion:   
 ### Exploracion:   
 Sirve para revisar como se comportan realmente las variables.    
@@ -9,8 +12,10 @@ Cualitativa, de categorias o factores, que clasifican o jerarquizan los datos, o
 ### Variables nominales:   
 Solo se puede sacar la moda, que es el dato que mas se repite. Un ejemplo puede ser el genero de una persona,    
 ### Variables ordinales:   
+
 Son nominales, pero ademas indican un orden o jerarquia entre los datos, como alto, medio y bajo. Provienen usualmente de apreciaciones subjetivas de las personas.   
- --- 
+
+--- 
 ### Variables de intervalo:   
 Son datos ordinales, pero no poseen un cero absoluto, sus valores son relativos, depende de la escala. Un ejemplo es la escala Celsius.   
 En estas se pueden usar todas las operaciones estadisticas, media, mediana, moda, rango, etc.   

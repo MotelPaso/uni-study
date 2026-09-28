@@ -1,0 +1,29 @@
+__root__	__root__	https://www.danielsanmartin.cl/blog/2026/ingsoft/	Ingeniería de Software
+arquitectura	arquitectura	https://www.danielsanmartin.cl/blog/arquitectura/	Arquitectura de Software
+arquitectura	microservices-ing	https://www.danielsanmartin.cl/blog/microservices-ing/	Microservicios
+arquitectura	mvc-ing	https://www.danielsanmartin.cl/blog/mvc-ing/	Modelo Vista Controlador (MVC)
+devops	devops	https://www.danielsanmartin.cl/blog/devops/	DevOps
+disenho	composition-hierarchy-is	https://www.danielsanmartin.cl/blog/composition-hierarchy-is/	Composición por sobre Herencia
+disenho	demeter-is	https://www.danielsanmartin.cl/blog/demeter-is/	Ley de Demeter
+disenho	dependency-inversion-is	https://www.danielsanmartin.cl/blog/dependency-inversion-is/	Principio de Inversión de Dependencias
+disenho	disenho	https://www.danielsanmartin.cl/blog/disenho/	Diseño de Software
+disenho	interface-segregation-is	https://www.danielsanmartin.cl/blog/interface-segregation-is/	Principio de Segregación de Interfaces
+disenho	liskov-is	https://www.danielsanmartin.cl/blog/liskov-is/	Principo de Sustitución de Liskov
+disenho	open-closed-is	https://www.danielsanmartin.cl/blog/open-closed-is/	Principio de Abierto/Cerrado
+disenho	pdd-is-1	https://www.danielsanmartin.cl/blog/pdd-is-1/	Method Factory
+disenho	pdd-is-5	https://www.danielsanmartin.cl/blog/pdd-is-5/	Adapter
+disenho	pdd-is-8	https://www.danielsanmartin.cl/blog/pdd-is-8/	Strategy
+disenho	pdd-is-9	https://www.danielsanmartin.cl/blog/pdd-is-9/	Observador
+disenho	single-responsibility-is	https://www.danielsanmartin.cl/blog/single-responsibility-is/	Principio de Responsabilidad Única
+ing-testing	ing-testing	https://www.danielsanmartin.cl/blog/ing-testing/	Pruebas de Software
+modelos	modelos	https://www.danielsanmartin.cl/blog/modelos/	Modelos
+procesos	kanban	https://www.danielsanmartin.cl/blog/kanban/	Kanban
+procesos	otros_procesos	https://www.danielsanmartin.cl/blog/otros_procesos/	Otros Métodos Iterativos
+procesos	procesos	https://www.danielsanmartin.cl/blog/procesos/	Procesos
+procesos	scrum	https://www.danielsanmartin.cl/blog/scrum/	Scrum
+procesos	xp	https://www.danielsanmartin.cl/blog/xp/	Extreme Programming
+requisitos	cu	https://www.danielsanmartin.cl/blog/cu/	Casos de Uso
+requisitos	hu	https://www.danielsanmartin.cl/blog/hu/	Historias de Usuario
+requisitos	mvp	https://www.danielsanmartin.cl/blog/mvp/	Producto Mínimo Viable
+requisitos	requisitos	https://www.danielsanmartin.cl/blog/requisitos/	Requerimientos de software
+requisitos	testab	https://www.danielsanmartin.cl/blog/testab/	Test A/B

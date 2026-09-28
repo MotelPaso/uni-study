@@ -14,7 +14,8 @@
 
 ### Clases
 - [[clase-2-conseguir-datos|Clase 2: Conseguir Datos]]
-- [[clase-3-ver-datos|Clase 3: Ver Datos]]
-- [[clase-4-limpieza-de-datos|Clase 4: Limpieza de datos]]
+- [[clase-4-ver-datos|Clase 3: Ver Datos]]
+- [[clase-3-limpieza-de-datos|Clase 4: Limpieza de datos]]
+- [[clase-5-nlp|Clase 5: Natural Language Processing]]
 - [[temario|Temario]]
 - [[foro-data-mining|Foro Data Mining]]

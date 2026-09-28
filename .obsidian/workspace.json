@@ -11,10 +11,14 @@
             "id": "9232f6b9d2934862",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "testab"
             }
           }
         ]
@@ -74,6 +78,21 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "16b4a96a08f40843",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
           }
         ]
       }
@@ -95,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6to/arquitectura/taller-1.md",
+                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -151,21 +171,6 @@
             }
           },
           {
-            "id": "2aa40fd5b897c659",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "5to/poo/poo.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
             "id": "8205f7dce252fb89",
             "type": "leaf",
             "state": {
@@ -184,23 +189,13 @@
               "icon": "copilot-agent",
               "title": "Copilot Agent"
             }
-          },
-          {
-            "id": "e5259c0ee2d92fef",
-            "type": "leaf",
-            "state": {
-              "type": "typst-book-preview",
-              "state": {},
-              "icon": "book-open",
-              "title": "Typster"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 569.30078125
+    "width": 325.80078125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,44 +212,44 @@
       "typst-book-preview:Open Typster preview": false
     }
   },
-  "active": "9232f6b9d2934862",
+  "active": "8205f7dce252fb89",
   "lastOpenFiles": [
-    "6to/horario.md",
-    "6to/arquitectura/taller-1.md",
-    "6to/arquitectura/taller-1.md",
+    "6to/ingenieria de software/notes/requisitos/resumen-text.md",
+    "6to/ingenieria de software/notes/requisitos/mvp.md",
+    "6to/ingenieria de software/notes/requisitos/hu.md",
+    "6to/ingenieria de software/notes/requisitos/cu.md",
+    "6to/ingenieria de software/notes/procesos/resumen-test.md",
+    "6to/ingenieria de software/notes/requisitos/index.md",
     "Tareas.base",
-    "6to/ingenieria de software/ingenieria-de-software.md",
-    "6to/arquitectura/arquitectura-de-computadores.md",
-    "6to/arquitectura/clase-1-mundo-digital.md",
-    "6to/arquitectura/estudio.md",
-    "6to/arquitectura/clase-7-alu.md",
-    "5to/poo/poo.pdf",
-    "6to/ayudantia fundamentos/ayudantias/pauta-ayudantia-2.md",
-    "6to/ayudantia fundamentos/ayudantias/pauta-ayudantia-1.md",
-    "6to/ayudantia fundamentos/ayudantias/ayudantia-2.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/ejercicios.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/leyes de la logica.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/fundamentos-de-logica.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/operadores-logicos.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/logica-proposicional.md",
-    "6to/ayudantia fundamentos/ayudantias/ayudantia-1.md",
-    "5to/fundamentos de la computacion/Unidad 1 - Teoria de Conjuntos/leyes-basicas.md",
-    "copilot/copilot-conversations/agent__from_ejercicios_,_generate_a_similar_problem_set_onto_ayudantia-2@20260919_233906.md",
-    "5to/poo/ayudantia-2.md",
-    "5to/poo/poo.md",
-    "6to/ayudantia fundamentos/clase-1-demostraciones-lenguajes.md",
-    "6to/ayudantia fundamentos/ayudantia-fundamentos.md",
-    "6to/arquitectura/clase-5-ciclos.md",
-    "6to/arquitectura/clase-4-organizacion-de-la-cpu.md",
+    "copilot/copilot-conversations/agent__Realiza_un_resumen_de_la_carpeta_requisitos.@20260927_204123.md",
+    "6to/ingenieria de software/notes/requisitos/testab.md",
+    "6to/ingenieria de software/notes/procesos/index.md",
+    "copilot/copilot-conversations/agent__help_me_comb_through_this_file_and_make_a_summary@20260927_202205.md",
+    "6to/ingenieria de software/notes/procesos/otros_procesos.md",
+    "6to/ingenieria de software/notes/procesos/kanban.md",
+    "6to/ingenieria de software/notes/disenho/index.md",
+    "6to/ingenieria de software/notes/disenho/dependency-inversion-is.md",
+    "6to/ingenieria de software/notes/disenho/demeter-is.md",
+    "6to/ingenieria de software/notes/disenho/composition-hierarchy-is.md",
+    "6to/ingenieria de software/notes/arquitectura/index.md",
+    "6to/ingenieria de software/notes/ingsoft.md",
+    "6to/ingenieria de software/ingeso.zip",
+    "6to/ingenieria de software/notes/README.md",
+    "6to/ingenieria de software/notes/devops/index.md",
+    "6to/ingenieria de software/notes/devops",
+    "6to/ingenieria de software/notes/ing-testing/index.md",
+    "6to/ingenieria de software/notes/ing-testing",
+    "6to/ingenieria de software/notes/arquitectura/mvc-ing.md",
+    "6to/ingenieria de software/notes/arquitectura/microservices-ing.md",
+    "6to/ingenieria de software/notes/arquitectura",
+    "6to/ingenieria de software/notes/procesos/xp.md",
+    "6to/ingenieria de software/notes/procesos/scrum.md",
+    "6to/ingenieria de software/notes/urls.txt",
+    "6to/ingenieria de software/notes/requisitos",
+    "6to/ingenieria de software/notes/procesos",
+    "6to/ingenieria de software/notes/modelos",
+    "6to/ingenieria de software/notes/disenho",
     "5to/pasted image 20260407111003.png",
-    "5to/pasted image 20260407110130.png",
-    "copilot/copilot-conversations",
-    "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
-    "copilot/skills/json-canvas/LICENSE",
-    "copilot/skills/json-canvas/references",
-    "copilot/skills/json-canvas",
-    "copilot/skills/obsidian-bases/LICENSE",
-    "copilot/skills/obsidian-bases/references"
+    "5to/pasted image 20260407110130.png"
   ]
 }
