@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3deaead0d1696a34",
+        "id": "13afc08d6ad72980",
         "type": "tabs",
         "children": [
           {
-            "id": "9232f6b9d2934862",
+            "id": "f9dc5ac6bd388ff0",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-enhancing-export/textemplate/dissertation.tex",
-                "bFile": ".obsidian/plugins/obsidian-enhancing-export/textemplate/dissertation.tex",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: dissertation.tex  (Working Tree)"
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true,
+                "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -174,10 +174,14 @@
             "id": "8205f7dce252fb89",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "type": "markdown",
+              "state": {
+                "file": "6to/horario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "horario"
             }
           },
           {
@@ -191,17 +195,17 @@
             }
           },
           {
-            "id": "e5259c0ee2d92fef",
+            "id": "8319eb3ef6462347",
             "type": "leaf",
             "state": {
-              "type": "typst-book-preview",
+              "type": "git-view",
               "state": {},
-              "icon": "book-open",
-              "title": "Typster"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -215,51 +219,51 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
-      "obsidian42-brat:BRAT": false,
       "copilot:Open Copilot Agent Chat": false,
-      "typst-book-preview:Open Typster preview": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9232f6b9d2934862",
+  "active": "f9dc5ac6bd388ff0",
   "lastOpenFiles": [
     "6to/horario.md",
-    "5to/poo/poo.pdf",
+    "6to/base de datos/ay-2.md",
+    "6to/base de datos/ay-3.md",
     "6to/ayudantia fundamentos/ayudantias/pauta-ayudantia-2.md",
-    "6to/ayudantia fundamentos/ayudantias/pauta-ayudantia-1.md",
     "6to/ayudantia fundamentos/ayudantias/ayudantia-2.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/ejercicios.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/leyes de la logica.md",
     "5to/fundamentos de la computacion/unidad 3 - logica/fundamentos-de-logica.md",
-    "5to/fundamentos de la computacion/unidad 3 - logica/operadores-logicos.md",
     "5to/fundamentos de la computacion/unidad 3 - logica/logica-proposicional.md",
-    "6to/ayudantia fundamentos/ayudantias/ayudantia-1.md",
-    "5to/fundamentos de la computacion/Unidad 1 - Teoria de Conjuntos/leyes-basicas.md",
-    "copilot/copilot-conversations/agent__from_ejercicios_,_generate_a_similar_problem_set_onto_ayudantia-2@20260919_233906.md",
-    "5to/poo/ayudantia-2.md",
-    "5to/poo/poo.md",
-    "Untitled.md",
+    "5to/fundamentos de la computacion/unidad 3 - logica/leyes de la logica.md",
+    "5to/fundamentos de la computacion/unidad 3 - logica/ejercicios.md",
     "6to/ayudantia fundamentos/clase-1-demostraciones-lenguajes.md",
     "6to/ayudantia fundamentos/ayudantia-fundamentos.md",
-    "6to/arquitectura/arquitectura-de-computadores.md",
-    "6to/arquitectura/clase-7-alu.md",
-    "6to/arquitectura/clase-5-ciclos.md",
-    "6to/arquitectura/clase-4-organizacion-de-la-cpu.md",
-    "6to/arquitectura/clase-3-cpu.md",
-    "6to/arquitectura/clase-1-mundo-digital.md",
-    "6to/ciencia de datos/foro-data-mining.md",
+    "6to/ciencia de datos/ciencia-de-datos.md",
+    "6to/ciencia de datos/clase-5-regresion-lineal.md",
+    "6to/ciencia de datos/clase-5-regresion-lineal.md",
+    "5to/poo/poo.pdf",
+    "5to/fundamentos de la computacion/unidad 5 - automatas finitos/automatas.md",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/copilot-web-search/SKILL.md",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
     "Tareas.base",
-    "6to/proyecto integrador/ideas.md",
     "5to/pasted image 20260407111003.png",
     "5to/pasted image 20260407110130.png",
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/copilot-conversations/agent__please_add_links_to_all_files_in_this_folder_inside@20260914_010021.md",
     "copilot/copilot-conversations",
     "copilot/skills/obsidian-cli/LICENSE",
     "copilot/skills/obsidian-cli",
+    "copilot/skills/json-canvas/SKILL.md",
     "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
     "copilot/skills/json-canvas/references",
     "copilot/skills/json-canvas",
     "copilot/skills/obsidian-bases/LICENSE",
-    "copilot/skills/obsidian-bases/references"
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md"
   ]
 }
