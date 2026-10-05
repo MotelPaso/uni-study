@@ -43,7 +43,7 @@ $$
 Sirve para que los datos normalmente sesgados, se transformen en una variable mas simétrica.   
 Se utiliza para variables como ingresos o población, o de tipo exponencial.   
 #### Elección de Método:
-Depende mucho de los datos que se quieran
+Depende mucho de los datos que se quieran revisar.
 
  --- 
 # Encoding:   

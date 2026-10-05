@@ -25,6 +25,10 @@ Palabras "filler", sin significado demasiado importante, "el, y, en, es, un, lo"
 ### Term Frequency (TF)
 La cantidad de veces que sale una palabra en el documento.
 
+$$
+\log (1 + \mathtt{tf})
+$$
+
 Se puede normalizar usando la siguiente formula:
 $$
 tf / N
@@ -39,4 +43,23 @@ Sirve para varios documentos, pondera negativamente las palabras en proporcion a
 $$
 idf_j = \ln \left(\frac{\#\ \text{documents}}{\#\ \text{documents with word j}}\right)
 $$
+
+### TF-IDF
+$$
+tf \times IDF
+$$
+
+### Similitud del Coseno
+
+Se tienen dos documentos A y B, que su TF-IDF se define como a, b:
+
+$$
+\text{CosineSimilarity(A,B)} = \frac{A\cdot B}{||a||\cdot ||b||}
+$$
+Recordando que el modulo es:
+
+$$
+||a|| = \sqrt{\sum a_i^2}
+$$
+> la raiz cuadrada de la suma de cada elemento de $a$ al cuadrado.
 

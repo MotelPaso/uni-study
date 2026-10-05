@@ -1,10 +1,11 @@
 {
   "cssTheme": "Omarchy",
-  "baseFontSize": 19,
+  "baseFontSize": 25,
   "accentColor": "#b6ece1",
   "baseFontSizeAction": true,
-  "textFontFamily": "",
+  "textFontFamily": "Libron",
   "enabledCssSnippets": [
     "readable-line-width"
-  ]
+  ],
+  "interfaceFontFamily": "Libron"
 }

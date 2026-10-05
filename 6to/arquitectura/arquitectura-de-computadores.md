@@ -17,4 +17,4 @@
 - [[clase-3-cpu|Clase 3: CPU]]
 - [[clase-4-organizacion-de-la-cpu|Clase 4: Organizacion de la CPU]]
 - [[clase-5-ciclos|Clase 5: Ciclos]]
-- [[clase-7-alu|Clase 7: ALU]]
+- [[transformaciones|Clase 7: ALU]]

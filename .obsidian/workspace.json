@@ -11,14 +11,14 @@
             "id": "9232f6b9d2934862",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
-                "mode": "preview",
-                "source": false
+                "aFile": ".obsidian/app.json",
+                "bFile": ".obsidian/app.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "testab"
+              "icon": "diff",
+              "title": "Diff: app.json  (Working Tree)"
             }
           }
         ]
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
+                "file": "6to/arquitectura/clase-5-ciclos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "96a1d7eca37f4def",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
+                "file": "6to/arquitectura/clase-5-ciclos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6to/ingenieria de software/notes/requisitos/testab.md",
+                "file": "6to/arquitectura/clase-5-ciclos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -195,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.80078125
+    "width": 614.739013671875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,38 +213,39 @@
       "typst-book-preview:Open Typster preview": false
     }
   },
-  "active": "8205f7dce252fb89",
+  "active": "9232f6b9d2934862",
   "lastOpenFiles": [
-    "6to/ingenieria de software/notes/requisitos/resumen-text.md",
-    "6to/ingenieria de software/notes/requisitos/mvp.md",
-    "6to/ingenieria de software/notes/requisitos/hu.md",
-    "6to/ingenieria de software/notes/requisitos/cu.md",
-    "6to/ingenieria de software/notes/procesos/resumen-test.md",
-    "6to/ingenieria de software/notes/requisitos/index.md",
-    "Tareas.base",
-    "copilot/copilot-conversations/agent__Realiza_un_resumen_de_la_carpeta_requisitos.@20260927_204123.md",
+    "6to/horario.md",
+    "6to/ciencia de datos/foro-data-mining.md",
+    "6to/ciencia de datos/clase-5-nlp.md",
+    "6to/ciencia de datos/clase-4-ver-datos.md",
+    "6to/ciencia de datos/clase-3-limpieza-de-datos.md",
+    "6to/ciencia de datos/clase-2-conseguir-datos.md",
+    "6to/ciencia de datos/ciencia-de-datos.md",
+    "6to/ciencia de datos/regresion-lineal.md",
+    "6to/ciencia de datos/temario.md",
     "6to/ingenieria de software/notes/requisitos/testab.md",
-    "6to/ingenieria de software/notes/procesos/index.md",
-    "copilot/copilot-conversations/agent__help_me_comb_through_this_file_and_make_a_summary@20260927_202205.md",
-    "6to/ingenieria de software/notes/procesos/otros_procesos.md",
-    "6to/ingenieria de software/notes/procesos/kanban.md",
-    "6to/ingenieria de software/notes/disenho/index.md",
-    "6to/ingenieria de software/notes/disenho/dependency-inversion-is.md",
-    "6to/ingenieria de software/notes/disenho/demeter-is.md",
     "6to/ingenieria de software/notes/disenho/composition-hierarchy-is.md",
-    "6to/ingenieria de software/notes/arquitectura/index.md",
-    "6to/ingenieria de software/notes/ingsoft.md",
-    "6to/ingenieria de software/ingeso.zip",
-    "6to/ingenieria de software/notes/README.md",
+    "6to/ingenieria de software/notes/disenho/demeter-is.md",
+    "6to/ingenieria de software/notes/disenho/dependency-inversion-is.md",
+    "6to/ingenieria de software/notes/disenho/open-closed-is.md",
+    "6to/ingenieria de software/notes/disenho/pdd-is-5.md",
+    "6to/ingenieria de software/notes/disenho/pdd-is-1.md",
+    "6to/ingenieria de software/notes/disenho/pdd-is-9.md",
+    "6to/ingenieria de software/notes/disenho/pdd-is-8.md",
     "6to/ingenieria de software/notes/devops/index.md",
+    "6to/base de datos/prueba-1.md",
+    "6to/arquitectura/clase-6-ALU.md",
+    "6to/arquitectura/transformaciones.md",
+    "6to/arquitectura/taller-1.md",
+    "6to/ingenieria de software/notes/requisitos/index.md",
+    "6to/ingenieria de software/notes/requisitos/mvp.md",
+    "6to/ingenieria de software/notes/requisitos/resumen-text.md",
+    "Tareas.base",
+    "6to/ingenieria de software/ingeso.zip",
     "6to/ingenieria de software/notes/devops",
-    "6to/ingenieria de software/notes/ing-testing/index.md",
     "6to/ingenieria de software/notes/ing-testing",
-    "6to/ingenieria de software/notes/arquitectura/mvc-ing.md",
-    "6to/ingenieria de software/notes/arquitectura/microservices-ing.md",
     "6to/ingenieria de software/notes/arquitectura",
-    "6to/ingenieria de software/notes/procesos/xp.md",
-    "6to/ingenieria de software/notes/procesos/scrum.md",
     "6to/ingenieria de software/notes/urls.txt",
     "6to/ingenieria de software/notes/requisitos",
     "6to/ingenieria de software/notes/procesos",

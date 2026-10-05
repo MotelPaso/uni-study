@@ -18,7 +18,6 @@ Una API (*application programming interface*) es una forma de comunicación entr
 Lo importante de las API REST es que no tienen "memoria", cada llamada, cada query no afecta a las demas querys de forma directa. No guarda datos dentro de la API. 
 La mayoria requiere autentificacion, como una API KEY.
 
-
 Se comunican mediante JSON (diccionario) XML o CSV (comma separated values).   
 
 > Los JSON funcionan principalmente para comunicaciones web que requieren JavaScript, XML para sistemas antiguos, y CSV es usualmente para aplicaciones tableadas, como Excel.   
