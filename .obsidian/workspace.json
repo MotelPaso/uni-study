@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
+                "aFile": ".obsidian/plugins/copilot/manifest.json",
+                "bFile": ".obsidian/plugins/copilot/manifest.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: app.json  (Working Tree)"
+              "title": "Diff: manifest.json  (Working Tree)"
             }
           }
         ]
@@ -213,8 +213,11 @@
       "typst-book-preview:Open Typster preview": false
     }
   },
-  "active": "9232f6b9d2934862",
+  "active": "8205f7dce252fb89",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "6to/ciencia de datos/clase-5-regresion-lineal.md",
+    "6to/base de datos/ay-3.md",
     "6to/horario.md",
     "6to/ciencia de datos/foro-data-mining.md",
     "6to/ciencia de datos/clase-5-nlp.md",
@@ -238,9 +241,6 @@
     "6to/arquitectura/clase-6-ALU.md",
     "6to/arquitectura/transformaciones.md",
     "6to/arquitectura/taller-1.md",
-    "6to/ingenieria de software/notes/requisitos/index.md",
-    "6to/ingenieria de software/notes/requisitos/mvp.md",
-    "6to/ingenieria de software/notes/requisitos/resumen-text.md",
     "Tareas.base",
     "6to/ingenieria de software/ingeso.zip",
     "6to/ingenieria de software/notes/devops",
